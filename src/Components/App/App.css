@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+}
+
+body {
+  background-color: #eae6f3c0;
+  font-family: 'Inter', Helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #315E36;
+}
+
+img {
+  width: 100%;
+}
+
+@media all and (min-width: 900px) {
+  .group {
+    flex-direction: row;
+  }
+}
