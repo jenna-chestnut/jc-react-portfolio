@@ -5,6 +5,8 @@ import img from '../../images/salemthedog-smiling.jpg';
 import headshotImg from '../../images/jenna-smile-woodsbackground-square.jpg';
 import portfolioImg from '../../images/portfolio-window.png';
 import HomePageWindow from '../../Components/HomePageWindow/HomePageWindow';
+import Fade from 'react-reveal/Fade';
+
 
 const windowLinks = [
 	{link: '/about', img: headshotImg, text: 'About'},
@@ -27,7 +29,11 @@ class HomePage extends React.Component {
         <div className="home-page">
 		<div className='hp-w-container'>
 		{this.HomePageWindows()}
+
+		<Fade top>
 		<h2 className="hero-text">CREATIVE CALCULATIONS</h2>
+		</Fade>
+
 		</div>
 
 		<img className='hp-headshot' src={headshotImg} alt='headshot'/>

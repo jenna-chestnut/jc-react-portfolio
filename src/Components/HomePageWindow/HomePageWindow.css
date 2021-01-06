@@ -16,8 +16,9 @@
 
 .hp-w-text {
     position: absolute;
-    padding: 5px;
+    padding: 5px 0px;
     background-color: #00000056;
+    margin: auto;
     left: 0;
     right: 0;
     cursor: pointer;
@@ -31,7 +32,7 @@ image {
     .hp-w {
         display: inline;
         flex: 1;
-        width: 33%;
+        width: 30%;
         position: relative;
     }
 }

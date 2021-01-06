@@ -1,6 +1,8 @@
 import './PortfolioPage.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 
 class PortfolioPage extends React.Component {
   render() {
@@ -10,26 +12,22 @@ class PortfolioPage extends React.Component {
         <h2>PORTFOLIO</h2>
         <div className="darkgreen">
 			<article id="myprojects" className="wider smaller">
-			  <h3>MY PROJECTS</h3>
 	
-			  <div className="group bottomspace">
-				<div className="item project">
-				  <h4>PERSONAL 404</h4>
+			  <div className="bottomspace">
+				<div className="project">
+				  <h3>nSpired</h3>
 				  <p>
-					Stephen King once said "There's no harm in hoping for the best
-					as long as you're prepared for the worst." I ran with those
-					words of wisdom and created my own 404 page as soon as I knew
-					how. Hopefully you never have to see it outside of this
-					presentation!
+				  nSpired was created to offer a platform specifically to meeting goals independently, while connecting and sharing with others who want to achieve the same.
 				  </p>
-				  <p>For this page, I utilized HTML and CSS.</p>
-				  <Link to="./404.html">Click here to check it out.</Link>
-				  <Link to="./404.html">
-					<img src="./images/404-page.jpg" alt="404 page screenshot"
-				  /></Link>
+				  <p>For this page, I utilized HTML, CSS, React, Node.js, PostgreSQL, ExpressJS, KnexJS, Heroku, and Vercel.</p>
+				  <a href='https://nspired-app.vercel.app/' target='_blank' rel='noreferrer'>Live App</a>
+				  {' | '}
+				  <a href='https://github.com/jenna-chestnut/nspired-client' target='_blank' rel='noreferrer'>GitHub Repo</a>
 				</div>
-				<div className="item project">
-				  <h4>DON'T SPACE OUT!</h4>
+
+				<Slide left>
+				<div className="project">
+				  <h3>Don't Space Out! Quiz</h3>
 				  <p>
 					Think you know enough about the cosmos? Test your space
 					knowledge with this simple 6 question quiz!
@@ -49,9 +47,11 @@ class PortfolioPage extends React.Component {
 					  alt="space quiz screenshot"
 				  /></a>
 				</div>
+				</Slide>
 	
-				<div className="item project">
-				  <h4>BOOK SEARCH APP</h4>
+				<Fade>
+				<div className="project">
+				  <h3>Cater Naturals Website</h3>
 				  <p>
 					Wish you could remember the author of that story? You can search for books available in the Google Books API!
 				  </p>
@@ -68,6 +68,7 @@ class PortfolioPage extends React.Component {
 					  alt="space quiz screenshot"
 				  /></a>
 				</div>
+				</Fade>
 			  </div>
 			</article>
 		  </div>

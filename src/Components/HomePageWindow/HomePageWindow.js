@@ -53,7 +53,8 @@ class HomePageWindow extends React.Component {
       return (
         <div className='hp-w' onMouseEnter={() => this.squareGrow(id)} onMouseLeave={() => this.squareShrink(id)}>
 
-          {this.state.showLink && <Link className='hp-w-text' to={link}>{text}</Link>}
+         {this.state.showLink && <Link className='hp-w-text' to={link} 
+         style={{width: this.state.width}}>{text}</Link>}
 
         <svg id={`w-${id}`} width={this.state.width} height={50}>
           <a href={link}><image width={this.state.width} href={img} alt={text}/></a>
