@@ -1,4 +1,8 @@
 import './ContactPage.css';
+import gitHubLogo from '../../images/githublogo.png';
+import linkedInLogo from '../../images/linkedin-icon.png';
+import linkTreeLogo from '../../images/linktree-icon.png';
+import emailIcon from '../../images/email-icon-orange.jpg';
 import React from 'react';
 
 class ContactPage extends React.Component {
@@ -8,9 +12,9 @@ class ContactPage extends React.Component {
           <>
         <div className="contact-page">
         <h2>CONTACT</h2>
-        <div class="bubble">
-			<div class="wide">
-			  <h4 class="center topspace">LET'S CONNECT</h4>
+        <div className="bubble">
+			<div className="wide">
+			  <h4 className="center topspace">LET'S CONNECT</h4>
 			  <p>
 				My past work history has always involved working with a closely knit
 				team. While I have been able to manage and complete tasks in
@@ -21,13 +25,13 @@ class ContactPage extends React.Component {
 				with, or a mentor for guidance.
 			  </p>
 	
-			  <p class="center">
+			  <p className="center">
 				If you are looking for a study buddy, a mentee or a future web
 				developer - <a href="#contactme">let's connect</a>!
 			  </p>
 	
-			  <div class="center bottomspace">
-				<h4 class="topspace">SERVICES PROVIDED</h4>
+			  <div className="center bottomspace">
+				<h4 className="topspace">SERVICES PROVIDED</h4>
 				<p>Static and Dynamic Web Development</p>
 				<p>Responsive Design</p>
 				<p>Website Redesign</p>
@@ -39,50 +43,50 @@ class ContactPage extends React.Component {
 			</div>
 		  </div>
         </div>
-        <div class="lightgreen">
+        <div className="lightgreen">
         <article id="contactme">
-          <div class="center wrapper">
+          <div className="center wrapper">
             <h3>CONTACT</h3>
             <p>Ideas, advice, recruitment and new friends are welcome!</p>
-            <p class="contactme">
+            <p className="linktree">
               <a href="https://linktr.ee/jenna.chestnut" target="_blank"
-                rel="noreferrer" >[Click here for my Linktree]</a
+                rel="noreferrer" ><img src={linkTreeLogo} alt="LinkTree"/></a
               >
             </p>
           </div>
         </article>
-      <div class="center wrapper buttons">
-        <div class="item">
+      <div className="center wrapper buttons">
+        <div className="item">
           <a href="https://www.linkedin.com/in/jenna-chestnut/" target="_blank" rel="noreferrer"
-            ><img src="./images/linkedin-icon.png" alt="LinkedIn"
+            ><img src={linkedInLogo} alt="LinkedIn"
           /></a>
         </div>
-        <div class="item">
+        <div className="item">
           <a href="https://github.com/jenna-chestnut" target="_blank"
-            rel="noreferrer"><img src="./images/githublogo.png" alt="GitHub"
+            rel="noreferrer"><img src={gitHubLogo} alt="GitHub"
           /></a>
         </div>
-        <div class="item">
+        <div className="item">
           <a href="mailto:jennabot5000@gmail.com"
-            ><img src="./images/email-icon-orange.jpg" alt="Send an Email"
+            ><img src={emailIcon} alt="Send an Email"
           /></a>
         </div>
       </div>
 
       </div>
 
-      <div class="wide">
+      <div className="wide">
         <form action="https://formspree.io/f/xdopldyp" method="post">
           <fieldset>
             <legend>SEND A MESSAGE</legend>
 
-            <label class="topspace" for="name">NAME:</label>
+            <label className="topspace" for="name">NAME:</label>
             <input type="text" id="name" name="name" />
 
-            <label class="email" for="emailaddress">EMAIL:</label>
+            <label className="email" for="emailaddress">EMAIL:</label>
             <input type="email" name="_replyto" id="emailaddress" />
 
-            <label class="email" for="email">MESSAGE:</label>
+            <label className="email" for="email">MESSAGE:</label>
             <textarea id="email" name="message"></textarea>
 
             <button type="submit">SEND</button>

@@ -1,0 +1,18 @@
+.linktree {
+    max-width: 150px;
+    margin: auto;
+}
+
+.buttons {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    max-width: 500px;
+  }
+  
+  .buttons img, .contact-me img {
+    width: 80%;
+    padding: 5% 0;
+  }

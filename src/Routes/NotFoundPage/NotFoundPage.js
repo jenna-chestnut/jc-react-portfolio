@@ -1,8 +1,8 @@
-import './PortfolioPage.css';
+import './NotFoundPage.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class PortfolioPage extends React.Component {
+class NotFoundPage extends React.Component {
   render() {
 
       return (
@@ -76,4 +76,4 @@ class PortfolioPage extends React.Component {
     }
 }
 
-export default PortfolioPage;
+export default NotFoundPage;

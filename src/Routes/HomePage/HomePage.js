@@ -1,21 +1,43 @@
 import './HomePage.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import img from '../../images/salemthedog-smiling.jpg';
+import headshotImg from '../../images/jenna-smile-woodsbackground-square.jpg';
+import portfolioImg from '../../images/portfolio-window.png';
+import HomePageWindow from '../../Components/HomePageWindow/HomePageWindow';
+
+const windowLinks = [
+	{link: '/about', img: headshotImg, text: 'About'},
+	{link: '/portfolio', img: portfolioImg, text: 'Portfolio'},
+	{link: '/contact', img, text: 'Contact'},
+]
 
 class HomePage extends React.Component {
+
+	HomePageWindows() {
+		return windowLinks.map((el, idx) => {
+			return <HomePageWindow key={idx} id={idx} wLink={el} />
+		});
+	}
+
+
   render() {
 
       return (
         <div className="home-page">
-        <div className="hero">
-        <h2>CREATIVE CALCULATIONS</h2>
-        </div>
-        <div class="lightgreen">
-			<div class="wrapper">
-			  <article id="intro" class="center bottomspace">
-				<p class="topspace">
+		<div className='hp-w-container'>
+		{this.HomePageWindows()}
+		<h2 className="hero-text">CREATIVE CALCULATIONS</h2>
+		</div>
+
+		<img className='hp-headshot' src={headshotImg} alt='headshot'/>
+		
+        <div className="lightgreen">
+			<div className="wrapper">
+			  <article id="intro" className="center bottomspace">
+				<p className="topspace">
 				  <b
-					>Hi there! I'm Jenna and I'm a web developer (in the making)
+					>Hi there! I'm Jenna and I'm a web developer 
 					living in Nashville, Tennessee.</b
 				  >
 				</p>
@@ -26,8 +48,8 @@ class HomePage extends React.Component {
 				  same way.
 				</p>
 				I hope you enjoy my website, and please don't hesitate to send a
-				message. Don't forget to{' '} 
-                <Link to="/contact">follow me</Link>
+				message. Don't forget to 
+                <Link to="/contact"> connect</Link>
                 !
 			  </article>
 			</div>

@@ -9,6 +9,19 @@
   flex: 1;
 }
 
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.topspace {
+  margin-top: 30px;
+}
+
 body {
   background-color: #eae6f3c0;
   font-family: 'Inter', Helvetica;

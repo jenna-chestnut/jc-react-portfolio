@@ -6,8 +6,8 @@ class AboutPage extends React.Component {
 
       return (
         <div className="about-page">
-        <div class="darkgreen">
-			<article id="aboutme" class="wide">
+        <div className="darkgreen">
+			<article id="aboutme" className="wide">
             <h2>ABOUT</h2>
 			  <p>
 				Since my first login, I've always had a penchant for navigating
@@ -16,7 +16,7 @@ class AboutPage extends React.Component {
 				my tech skills, and fulfill my drive to improve the lives of others.
 			  </p>
 	
-			  <p class="bottomspace">
+			  <p className="bottomspace">
 				As the go-to person for error messages, website tweaks and needed
 				fixes when IT isn't around, I know that I want to learn and
 				accomplish much more. Now that I have signed up for the Thinkful
@@ -24,9 +24,9 @@ class AboutPage extends React.Component {
 				this goal a reality.
 			  </p>
 	
-			  <section class="group spacebetween bottomspace">
-				<div class="item">
-				  <h4 class="center">OUTSIDE OF TECH</h4>
+			  <section className="group spacebetween bottomspace">
+				<div className="item">
+				  <h4 className="center">OUTSIDE OF TECH</h4>
 				  <p>
 					During my down time, I love exploring in nature and hiking with
 					my dog
@@ -40,8 +40,8 @@ class AboutPage extends React.Component {
 				  </p>
 				</div>
 	
-				<div class="item bottomspace">
-				  <h4 class="center">MILESTONES</h4>
+				<div className="item bottomspace">
+				  <h4 className="center">MILESTONES</h4>
 				  <ul>
 					<li>Born in Alabama</li>
 					<li>

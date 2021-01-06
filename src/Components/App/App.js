@@ -4,6 +4,7 @@ import AboutPage from '../../Routes/AboutPage/AboutPage';
 import ContactPage from '../../Routes/ContactPage/ContactPage';
 import HomePage from '../../Routes/HomePage/HomePage';
 import PortfolioPage from '../../Routes/PortfolioPage/PortfolioPage';
+import NotFoundPage from '../../Routes/NotFoundPage/NotFoundPage';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
@@ -24,13 +25,13 @@ class App extends React.Component {
     {this.state.hasError && <p className='error-banner'>Sorry, there was an error. Please refresh the page and try again</p>}
 
       <Route path='/' component={Header} />
-
       <Main>
       <Switch>
       <Route exact path='/' component={HomePage} />
       <Route path='/about' component={AboutPage} />
       <Route path='/portfolio' component={PortfolioPage} />
       <Route path='/contact' component={ContactPage} />
+      <Route component={NotFoundPage} />
       </Switch>
       </Main>
 

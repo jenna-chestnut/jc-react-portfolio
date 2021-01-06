@@ -1,0 +1,37 @@
+.hp-w {
+    text-align: center;
+    display: none;
+}
+
+.hp-w a, .hp-w a:hover {
+    color: white;
+    transition: linear 1s;
+}
+
+.hp-w a:hover {
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: linear 1s;
+}
+
+.hp-w-text {
+    position: absolute;
+    padding: 5px;
+    background-color: #00000056;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+image {
+    width: 100%;
+}
+
+@media all and (min-width: 600px) {
+    .hp-w {
+        display: inline;
+        flex: 1;
+        width: 33%;
+        position: relative;
+    }
+}
