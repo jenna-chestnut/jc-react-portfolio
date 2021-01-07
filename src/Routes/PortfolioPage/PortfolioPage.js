@@ -1,11 +1,18 @@
 import './PortfolioPage.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { PortfolioItems } from './PortfolioItems';
+import ProjectItem from '../../Components/ProjectItem/ProjectItem';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
 class PortfolioPage extends React.Component {
-  render() {
+	renderProjects() {
+		return PortfolioItems.map((el, idx) => {
+			return <ProjectItem id={idx} item={el}/>
+		})
+	}
+
+    render() {
 
       return (
         <div className="project-page">

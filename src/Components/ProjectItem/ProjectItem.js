@@ -1,23 +1,31 @@
-import './Header.css';
+import './ProjectItem.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ProjectSlider from '../ProjectSlider/ProjectSlider';
 
-class Header extends React.Component {
+class ProjectItem extends React.Component {
+  renderTech(tech) {
+    if (tech)
+    return tech.map((el, idx) => {
+      return <li>{el}</li>
+    })
+  }
+  
   render() {
+    const { id, item } = this.props;
+    const {title, images, description, liveLink, repo, tech} = item;
 
       return (
-        <header className="h-group">
-        <nav>
-            <Link to="/about">About</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
-        </nav>
-        <h1 className="item">
-            <Link to='/'>Jenna Chestnut</Link>
-            </h1>
-        </header>
+        <div className='project-item'>
+          <h2>{title}</h2>
+        <ProjectSlider id={id} title={title} images={images} />
+        <p>{description}</p>
+        <h3>Tech {':'}</h3>
+        <ul>{this.renderTech(tech)}</ul>
+        <a href={liveLink}>Live Link</a>
+        {repo && <a href={liveLink}>Live Link</a>}
+        </div>
       );
     }
 }
 
-export default Header;
+export default ProjectItem;
