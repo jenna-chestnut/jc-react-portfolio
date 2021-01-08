@@ -98,7 +98,7 @@ class AboutPage extends React.Component {
 				  </div>
 
 			<div className='portfolio-link'>
-			<Link to='/portfolio' onCLick={() => window.scrollTo(0, 0)}>View Portfolio</Link>
+			<Link to='/portfolio'>View Portfolio</Link>
 			</div>
 		  </div>
       );

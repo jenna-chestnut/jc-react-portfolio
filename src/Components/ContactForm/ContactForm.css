@@ -1,0 +1,85 @@
+.contact-form {
+  margin-top: 20px;
+  background-color: #F4F2F8;
+  padding: 20px 0;
+}
+
+fieldset {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #000000;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: auto;
+  }
+  
+  form {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    font-size: 20px;
+    margin: 0 20px 10px 20px;
+    padding: 10px;
+    width: 80%;
+    color: #000000;
+  }
+  
+  textarea {
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    min-height: 100px;
+    margin: 0 20px 20px 20px;
+    color: #000000;
+  }
+  
+  label {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding-left: 5%;
+    padding-bottom: 5px;
+    display: block;
+  }
+  
+  button[type="submit"] {
+    letter-spacing: 5px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #750d37;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+  }
+
+  @media all and (min-width: 800px) {
+    label {
+      padding-left: 10%;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      margin-left: 7%;
+    }
+    legend {
+      padding: 10px 20px;
+    }
+}

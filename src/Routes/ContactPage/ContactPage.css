@@ -1,6 +1,50 @@
+.contact-page h2 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin: 10px auto;
+}
+
+.lets-connect {
+    padding: 30px 0;
+    background-color: #2a393f;
+    color: white;
+}
+
+.lets-connect a, .lets-connect a:hover,
+.resume a, .resume a:hover {
+  color: white;
+}
+
 .linktree {
     max-width: 150px;
     margin: auto;
+}
+
+.resume {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #F4F2F8;
+}
+
+.resume img {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.r-d {
+  padding: 30px 5px;
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+}
+
+.resume-button {
+  background-color: #750d37;
+  width: 45%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
 }
 
 .buttons {
@@ -16,3 +60,10 @@
     width: 80%;
     padding: 5% 0;
   }
+
+@media all and (min-width: 700px) {
+  .resume img {
+    width: 50%;
+    margin: 20px auto;
+  }
+}

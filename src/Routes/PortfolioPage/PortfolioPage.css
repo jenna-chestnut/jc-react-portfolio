@@ -9,3 +9,35 @@
     color: white;
     letter-spacing: 2px;
 }
+
+.tech-icons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.tech-icons .item {
+    margin-bottom: 15px;
+}
+
+.tech-div {
+    padding: 30px 0;
+    background-color: #2a393f;
+    color: white;
+}
+
+.tech-div h2 {
+    padding-bottom: 30px;
+}
+
+@media all and (min-width: 600px) {
+    .tech-icons {
+        flex-direction: row;
+        width: 80%;
+    }
+    .tech-icons .item {
+        margin-bottom: auto;
+    }
+}

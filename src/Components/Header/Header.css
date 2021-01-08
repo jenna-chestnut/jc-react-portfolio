@@ -8,11 +8,13 @@ h1 {
 }
 
 nav {
-    margin: auto;
+    margin: 10px auto auto auto;
     position: fixed;
     right: 0px;
     text-align: right;
-    padding-top: 20px;
+    padding: 10px;
+    background-color: #ffffffb2;
+    z-index: 150;
 }
 
 .h-group {
@@ -44,7 +46,8 @@ nav a {
     }
     nav {
         position: relative;
-        padding-top: 0px;
+        padding: 0px;
+        margin: auto;
     }
     header {
         margin-top: 0;
