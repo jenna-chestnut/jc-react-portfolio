@@ -34,7 +34,7 @@ export const PortfolioItems = [
         title: 'Don\'t Space Out! Quiz',
         description: 'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz!',
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Git', 'GitHub'],
-        liveLink: 'https://t.co/fVB7g99Jy9?amp=1',
+        liveLink: 'https://jenna-chestnut.github.io/quizapp-ei/',
         repo: 'https://github.com/jenna-chestnut/quizapp-ei',
         images: [sQ1, sQ2, sQ3]
     },

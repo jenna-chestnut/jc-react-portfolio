@@ -35,8 +35,8 @@ class ProjectItem extends React.Component {
         </div></div>
 
         <div className={linksClassName}>
-        <a href={liveLink}>Live Link</a>{repo && ' | '}
-        {repo && <a href={repo}>Repo</a>}
+        <a href={liveLink} target='_blank' rel="noreferrer">Live Link</a>{repo && ' | '}
+        {repo && <a href={repo} target='_blank' rel="noreferrer">Repo</a>}
         </div></div>
         </Fade>
       );
