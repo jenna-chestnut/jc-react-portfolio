@@ -16,7 +16,7 @@ import sQ3 from '../../images/project-screenshots/spacequiz-screenshot-3.jpg';
 export const PortfolioItems = [
     {
         title: 'Cater Naturals Website',
-        description: 'Cater Naturals is a small catering business located in Brooklyn NY. This is their website - features include a pop up form and client side routing.',
+        description: 'Cater Naturals is a small catering business located in Brooklyn NY. My role was in creating the entire static webpage. This is their site - features include a pop up form and client side routing. ',
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'AWS S3', 'AWS Route 53', 'AWS CLoudFront'],
         liveLink: 'https://caternaturals.com/',
         repo: null,
@@ -24,7 +24,7 @@ export const PortfolioItems = [
     },
     {
         title: 'nSpired',
-        description: 'nSpired was created to offer a platform specifically to meeting goals independently, while connecting and sharing with others who want to achieve the same.',
+        description: 'nSpired was created to offer a platform specifically to meeting goals independently, while connecting and sharing with others who want to achieve the same. This project is all my own and I envisioned and developed both the client and server applications.',
         tech: ['HTML', 'CSS', 'React', 'Node.js', 'PostgreSQL', 'Git', 'GitHub', 'ExpressJS', 'KnexJS', 'Heroku', 'Vercel'],
         liveLink: 'https://nspired-app.vercel.app/',
         repo: 'https://github.com/jenna-chestnut/nspired-client',
@@ -32,7 +32,7 @@ export const PortfolioItems = [
     },
     {
         title: 'Don\'t Space Out! Quiz',
-        description: 'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz!',
+        description: 'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz. This project was created as a part of my bootcamp curriculumn, where I was given creative control.',
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Git', 'GitHub'],
         liveLink: 'https://jenna-chestnut.github.io/quizapp-ei/',
         repo: 'https://github.com/jenna-chestnut/quizapp-ei',

@@ -1,8 +1,10 @@
 h1 {
     padding-top: 10px;
-    font-size: 40px;
-    letter-spacing: 2px;
-    margin: 45px auto 10px auto;
+    font-size: 45px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 nav {
@@ -38,9 +40,8 @@ nav a {
     h1 {
         text-align: right;
         font-size: 45px;
-        margin-left: 20px;
-        margin-top: 25px;
-        margin-bottom: 20px;
+        letter-spacing: 2px;
+        margin: 25px auto 20px 20px;
     }
     nav {
         position: relative;

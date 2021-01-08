@@ -39,10 +39,10 @@ class AboutPage extends React.Component {
 	
 			  <p className="bottompadding">
 				As the go-to person for error messages, website tweaks and needed
-				fixes when IT isn't around, I know that I want to learn and
-				accomplish much more. Now that I have signed up for the Thinkful
-				Engineering Immersion program, I am taking important steps to making
-				this goal a reality.
+				fixes when IT isn't around, I knew that I wanted to learn and
+				accomplish much more. Since joining the Thinkful Engineering Immersion program, 
+				I have developed my first website, currenlty work as a systems consultant, 
+				and have made this goal a reality.
 			  </p>
 			  </Fade>
 			  </div>
@@ -92,7 +92,6 @@ class AboutPage extends React.Component {
 					<li>Web development role</li>
 					<li>CRM consultant role</li>
 					<li>Built first full stack application</li>
-					<li>Lived in TX, NH, and TN</li>
 					</Fade>
 				  </ul>
 				  </div>
