@@ -1,40 +1,38 @@
 import './ProjectSlider.css';
 import React from 'react';
-import Splide from '@splidejs/splide';
-import '@splidejs/splide';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 class ProjectSlider extends React.Component {
-  componentDidMount() {
-    new Splide( `.splide-${this.props.id}`, {
-      perPage: 4,
-      perMove: 1,
-      cover: true,
-      width: '100%',
-      rewind : true,
-      direction: 'ttb',
-    } ).mount();
-  }
 
   renderSlides() {
     const {images, title} = this.props;
     return images.map((el, idx) => {
-      return <li class="splide__slide">
+      return <SplideSlide key={idx}>
               <img src={el} alt={`${title}-${idx}`}/>
-            </li>
+            </SplideSlide>
     })
   }
   
   render() {
+    const slides = this.renderSlides();
+    const autoPlay = this.props.id === 0;
       return (
         <div className='project-slider'>
-        <div class={ `.splide-${this.props.id}`}>
-        <div class="splide__track">
-        <ul class="splide__list">
-          {this.renderSlides()}
-        </ul>
-        </div>
-        </div>
-        </div>
+        <Splide options={{
+          perPage: 1,
+          perMove: 1,
+          cover: true,
+          width: '100%',
+          height: '50%',
+          autoplay: autoPlay,
+          interval: 4000,
+          speed: 600,
+          rewind : true
+        }}>
+          {slides}
+        </Splide>
+      </div>
       );
     }
 }

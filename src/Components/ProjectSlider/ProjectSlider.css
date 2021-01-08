@@ -1,0 +1,10 @@
+.project-slider {
+    display: block;
+    width: 95%;
+    height: 60%;
+    margin: 5px auto;
+}
+
+.project-slider img {
+    width: auto;
+}

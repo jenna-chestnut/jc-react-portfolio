@@ -1,0 +1,28 @@
+
+.ap-m-text {
+    position: absolute;
+    padding: 8px 0px;
+    color: white;
+    margin: auto 0px;
+    left: 0;
+    right: 0;
+}
+
+.ap-m svg {
+    background-color: #00000090;
+}
+
+.ap-m {
+    text-align: center;
+    display: none;
+}
+
+
+@media all and (min-width: 600px) {
+    .ap-m {
+        display: inline;
+        flex: 1;
+        width: 30%;
+        position: relative;
+    }
+}

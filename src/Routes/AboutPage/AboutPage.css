@@ -1,0 +1,92 @@
+.about-hero {
+    position: relative;
+}
+
+.about-hero h2 {
+    text-align: right;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    padding: 5px 20px 5px 0;
+    color: white;
+    font-size: 35px;
+    background-color: #0000006e;
+}
+
+.toppadding {
+    padding-top: 50px;
+}
+
+.bottompadding {
+    padding-bottom: 50px;
+}
+
+.milestones-widget {
+    display: none;
+}
+
+.portfolio-link {
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.about-page p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.milestones-list {
+    display: flex;
+    width: 95%;
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+.lightblue {
+    background-color: #dbecfe;
+    padding: 25px 0;
+}
+
+@media all and (min-width: 700px) {
+    .about-hero h2 {
+    text-align: left;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    padding: 15px;
+    color: white;
+    font-size: 45px;
+    background-color: #0000005d;
+    }
+    .outside-of-tech {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-left: 50px;
+    }
+    .to-center {
+        height: auto;
+        margin: auto;
+    }  
+    .to-center h4 {
+        margin-top: 0;
+    }
+    .topbottompadding {
+        padding: 70px 0px 70px 0px;
+    }  
+    .milestones-list {
+        display: none;
+    }
+    .milestones-widget {
+        display: flex;
+        width: 100%;
+        margin: 15px auto;
+    }
+}

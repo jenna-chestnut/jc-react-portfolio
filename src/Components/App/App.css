@@ -19,21 +19,27 @@
 }
 
 .topspace {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.bottomspace {
+  margin-bottom: 50px;
 }
 
 body {
-  background-color: #eae6f3c0;
   font-family: 'Inter', Helvetica;
 }
 
 a {
   text-decoration: none;
   color: black;
+  transition: linear 1s;
 }
 
 a:hover {
-  color: #315E36;
+  color: #386e6c;
+  letter-spacing: 2px;
+    transition: linear 1s;
 }
 
 img {
@@ -45,8 +51,16 @@ h2 {
   font-size: 35px;
 }
 
+hr {
+  width: 50%;
+}
+
 @media all and (min-width: 900px) {
   .group {
     flex-direction: row;
+  }
+  .wrapper {
+    width: 65%;
+    margin: auto;
   }
 }
