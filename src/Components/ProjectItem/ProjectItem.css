@@ -1,0 +1,92 @@
+.project-holder {
+    margin: 10px 0 50px 0;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+.project h2 {
+    display: inline block;
+    margin: 20px;
+    text-align: center;
+}
+
+.project-desc {
+    padding: 20px 15px;
+}
+
+.project-desc ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.project-desc li {
+    float: left;
+    margin: auto 10px;
+    list-style-type: none;
+}
+
+.links {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.v {
+    flex-direction: column;
+    width: 100%;
+}
+
+.rev-links {
+    background-color: #2a393f;
+    padding-bottom: 20px;
+    color: white;
+}
+.rev-links a, .rev-links a:hover {
+    color: white;
+}
+.rev-row {
+    margin: 3% 0 0 0;
+    background-color: #2a393f;
+    color: white;
+}
+
+@media all and (min-width: 700px) {
+    .project {
+        flex-direction: row;
+        margin: 3%;
+    }
+    .rev-links {
+        background-color: #2a393f;
+        padding-bottom: 20px;
+        color: white;
+    }
+    .rev-links a, .rev-links a:hover {
+        color: white;
+    }
+    .rev-row {
+        flex-direction: row-reverse;
+        margin: 3% 0 0 0;
+        padding: 10px 3% 20px 3%;
+        background-color: #2a393f;
+        color: white;
+    }
+    .project h2 {
+        text-align: left;
+    }
+    .rev-row h2 {
+        text-align: right;
+    }
+    .project-desc {
+        padding: 10% 15px 15px 15px;
+    }
+    .project-desc ul {
+        margin: auto;
+        padding-left: auto;
+    }
+    .v {
+        width: 50%;
+    }
+}
