@@ -59,7 +59,7 @@ class ContactPage extends React.Component {
 
         <img src={resumeImg} alt='resume'/>
 
-        <a className='resume-button' href='https://drive.google.com/file/d/1_ru_sVAvA9Lnv_ZfJhoJDqeNet0Zp-uS/view?usp=sharing' target='_blank' rel='noreferrer'>View Resume</a>
+        <a className='resume-button' href='https://docs.google.com/document/d/1Z5_JjfPSUQtcKXya1rnYwtvSmIGGOwnYmbiqe5GiQhA/edit?usp=sharing' target='_blank' rel='noreferrer'>View Resume</a>
         </div></div></div>
         </Fade>
 

@@ -25,6 +25,7 @@ class App extends React.Component {
     {this.state.hasError && <p className='error-banner'>Sorry, there was an error. Please refresh the page and try again</p>}
 
       <Route path='/' component={Header} />
+      
       <Main>
       <Switch>
       <Route exact path='/' component={HomePage} />

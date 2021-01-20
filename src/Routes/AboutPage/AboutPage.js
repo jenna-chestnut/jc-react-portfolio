@@ -40,8 +40,8 @@ class AboutPage extends React.Component {
 			  <p className="bottompadding">
 				As the go-to person for error messages, website tweaks and needed
 				fixes when IT isn't around, I knew that I wanted to learn and
-				accomplish much more. Since joining the Thinkful Engineering Immersion program, 
-				I have developed my first website, currenlty work as a systems consultant, 
+				accomplish much more. Since joining the Thinkful Engineering Immersion program - 
+				I have developed my first website, currently work as a systems consultant, 
 				and have made this goal a reality.
 			  </p>
 			  </Fade>
