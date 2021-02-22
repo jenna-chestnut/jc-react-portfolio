@@ -22,7 +22,7 @@ import mM5 from '../../images/project-screenshots/movemed-screenshot-5.jpg';
 export const PortfolioItems = [
     {
         title: 'MoveMed',
-        description: 'I created this app with healthy continous movement in mind. With MoveMed, the communication between provider and client is not broken after leaving the office. Providers can create exercises, and assign those exercises with unique details to a client. Clients can then view their goal and customized exercises anytime. Comments between providers and the client help add feedback in real time and maintain progress.',
+        description: 'I created this app with healthy continuous movement in mind. With MoveMed, the communication between provider and client is not broken after leaving the office. Providers can create exercises, and assign those exercises with unique details to a client. Clients can then view their goal and customized exercises anytime. Comments between providers and the client help add feedback in real time and maintain progress.',
         tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Heroku', 'Node', 'PostgreSQL', 'Vercel'],
         liveLink: 'https://move-med.vercel.app/',
         repo: 'https://github.com/jenna-chestnut/move-med-client',
@@ -46,7 +46,7 @@ export const PortfolioItems = [
     },
     {
         title: 'Don\'t Space Out! Quiz',
-        description: 'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz. This project was created as a part of my bootcamp curriculumn, where I was given creative control.',
+        description: 'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz. This project was created as a part of my bootcamp curriculum, where I was given creative control.',
         tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Git', 'GitHub'],
         liveLink: 'https://jenna-chestnut.github.io/quizapp-ei/',
         repo: 'https://github.com/jenna-chestnut/quizapp-ei',
