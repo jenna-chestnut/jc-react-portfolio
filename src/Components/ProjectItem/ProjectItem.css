@@ -8,7 +8,6 @@
 }
 
 .project h2 {
-    display: inline block;
     margin: 20px;
     text-align: center;
 }
@@ -84,7 +83,6 @@
     }
     .project-desc ul {
         margin: auto;
-        padding-left: auto;
     }
     .v {
         width: 50%;

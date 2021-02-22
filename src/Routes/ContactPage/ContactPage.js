@@ -89,8 +89,8 @@ class ContactPage extends React.Component {
           /></a>
         </div>
         <div className="item">
-          <a href="mailto:jennabot5000@gmail.com"
-            ><img src={emailIcon} alt="Send an Email"
+          <a href="mailto:jennabot5000@gmail.com" target='_blank'
+            rel="noreferrer"><img src={emailIcon} alt="Send an Email"
           /></a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import jennaDeskShot from '../../images/jenna-at-desk.jpg';
-import jennaSalemHike from '../../images/jenna-and-salem-on-mountain - square.jpg';
+import jennaSalemHike from '../../images/jenna-and-salem-on-mountain-square.jpg';
 import MilestonesWidget from '../../Components/MilestonesWidget/MilestonesWidget';
 import { Milestones } from './Milestones';
 
@@ -22,12 +22,12 @@ class AboutPage extends React.Component {
   render() {
 
       return (
-        <div className="about-page">
+        <article id="aboutme" className="about-page">
 			<div className='about-hero'>
 			<h2>ABOUT ME</h2>
 			<img src={jennaDeskShot} alt='Jenna at desk'/>
 			</div>
-			<article id="aboutme" className="toppadding bottompadding">
+			<div className="toppadding bottompadding">
 			<div className="wrapper">
 			<Fade duration={2000}>
 			  <p>
@@ -69,7 +69,7 @@ class AboutPage extends React.Component {
 				</div>
 			  </section>
 			  </Fade>
-			</article>
+			</div>
 
 			<h2>MILESTONES</h2>
 			<div className='milestones-widget'>
@@ -99,7 +99,7 @@ class AboutPage extends React.Component {
 			<div className='portfolio-link'>
 			<Link to='/portfolio'>View Portfolio</Link>
 			</div>
-		  </div>
+		  </article>
       );
     }
 }

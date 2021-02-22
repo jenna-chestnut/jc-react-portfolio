@@ -57,7 +57,7 @@ class HomePageWindow extends React.Component {
          style={{width: this.state.width}}>{text}</Link>}
 
         <svg id={`w-${id}`} width={this.state.width} height={50}>
-          <a href={link}><image width={this.state.width} href={img} alt={text}/></a>
+          <a href={link}><image width={this.state.width} height={this.state.height} href={img}/></a>
         </svg>
 
         </div>
