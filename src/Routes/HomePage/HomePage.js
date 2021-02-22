@@ -42,6 +42,7 @@ class HomePage extends React.Component {
 			  <article id="intro" className="center">
 				  <h2 className="topspace hello">Hi there! I'm Jenna and I'm a web developer 
 					living in Nashville, Tennessee.</h2>
+					<hr/>
 				<p>
 				  I have a genuine love for technology and how it helps to better
 				  the world through connection and innovation - and I'm beyond

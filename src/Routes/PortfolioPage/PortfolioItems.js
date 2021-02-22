@@ -13,7 +13,21 @@ import sQ1 from '../../images/project-screenshots/spacequiz-screenshot-1.jpg';
 import sQ2 from '../../images/project-screenshots/spacequiz-screenshot-2.jpg';
 import sQ3 from '../../images/project-screenshots/spacequiz-screenshot-3.jpg';
 
+import mM1 from '../../images/project-screenshots/movemed-screenshot-1.jpg';
+import mM2 from '../../images/project-screenshots/movemed-screenshot-2.jpg';
+import mM3 from '../../images/project-screenshots/movemed-screenshot-3.jpg';
+import mM4 from '../../images/project-screenshots/movemed-screenshot-4.jpg';
+import mM5 from '../../images/project-screenshots/movemed-screenshot-5.jpg';
+
 export const PortfolioItems = [
+    {
+        title: 'MoveMed',
+        description: 'I created this app with healthy continous movement in mind. With MoveMed, the communication between provider and client is not broken after leaving the office. Providers can create exercises, and assign those exercises with unique details to a client. Clients can then view their goal and customized exercises anytime. Comments between providers and the client help add feedback in real time and maintain progress.',
+        tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Heroku', 'Node', 'PostgreSQL', 'Vercel'],
+        liveLink: 'https://move-med.vercel.app/',
+        repo: 'https://github.com/jenna-chestnut/move-med-client',
+        images: [mM1, mM2, mM3, mM4, mM5]
+    },
     {
         title: 'Cater Naturals Website',
         description: 'Cater Naturals is a small catering business located in Brooklyn NY. My role was in creating the entire static webpage. This is their site - features include a pop up form and client side routing. ',
