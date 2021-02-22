@@ -48,13 +48,13 @@ class PortfolioPage extends React.Component {
           <h2 className='p-h'>PORTFOLIO</h2>
 			  {this.renderProjects()}
 
-        <Fade>
+        
         <div className='tech-div'>
           <h2>TECHNOLOGY</h2>
-          {this.renderTech(1)}
-          {this.renderTech(2)}
+          <Fade>{this.renderTech(1)}</Fade>
+          <Fade>{this.renderTech(2)}</Fade>
         </div>
-        </Fade>
+        
 
         </div>
       );
