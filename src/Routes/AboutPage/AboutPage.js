@@ -39,7 +39,7 @@ class AboutPage extends React.Component {
 	
 			  <p className="bottompadding">
 				As the go-to person for error messages, website tweaks and needed
-				fixes when IT isn't around, I knew that I wanted to learn and
+				fixes when IT wasn't around, I knew that I wanted to learn and
 				accomplish much more. Now that I have developed my first website 
 				and currently work as a systems consultant, 
 				I have made this goal a reality.

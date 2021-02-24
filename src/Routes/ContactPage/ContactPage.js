@@ -24,14 +24,12 @@ class ContactPage extends React.Component {
 				My past work history has always involved working with a closely knit
 				team. While I have been able to manage and complete tasks in
 				solitude, cooperation and collaboration can be paramount in
-				successfully achieving goals. As someone new and enthusiastic to the
-				field I would love to meet and work with others that have the same
-				passion... whether that be teammates to embrace growth and learning
-				with, or a mentor for guidance.
+				successfully achieving goals. I would love to meet and work with others that have the same
+				passion!
 			  </p>
 	
 			  <p className="center">
-				If you are looking for a study buddy, a mentee or a future web
+				If you are looking for a study buddy, a mentee or a web
 				developer -  <a href="https://linktr.ee/jenna.chestnut" target="_blank"
                 rel="noreferrer" >let's connect</a>!
 			  </p>
@@ -59,7 +57,7 @@ class ContactPage extends React.Component {
 
         <img src={resumeImg} alt='resume'/>
 
-        <a className='resume-button' href='https://docs.google.com/document/d/1Z5_JjfPSUQtcKXya1rnYwtvSmIGGOwnYmbiqe5GiQhA/edit?usp=sharing' target='_blank' rel='noreferrer'>View Resume</a>
+        <a className='resume-button' href='https://drive.google.com/file/d/1k6Z2JvNT-5pn-9Ypl_YWXkkOXVSsvskn/view?usp=sharing' target='_blank' rel='noreferrer'>View Resume</a>
         </div></div></div>
         </Fade>
 
