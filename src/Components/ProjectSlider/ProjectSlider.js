@@ -5,6 +5,12 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 class ProjectSlider extends React.Component {
 
+  state = {mounted: false}
+
+  componentDidMount() {
+    this.setState({mounted:true})
+  }
+
   renderSlides() {
     const {images, title} = this.props;
     return images.map((el, idx) => {
@@ -19,20 +25,18 @@ class ProjectSlider extends React.Component {
     const autoPlay = this.props.id === 0;
       return (
         <div className='project-slider'>
-        <Splide options={{
-          perPage: 1,
-          perMove: 1,
-          cover: true,
-          width: '100%',
-          height: '50%',
-          autoplay: autoPlay,
-          interval: 4000,
-          speed: 600,
-          rewind : true
-        }}>
-          {slides}
-        </Splide>
-      </div>
+       <Splide options={{
+         perPage: 1,
+         perMove: 1,
+         heightRatio: 0.5,
+         autoplay: autoPlay,
+         interval: 4000,
+         speed: 600,
+         rewind : true
+       }}>
+         {this.state.mounted && slides}
+       </Splide>
+     </div>
       );
     }
 }
