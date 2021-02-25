@@ -28,6 +28,7 @@ class ProjectSlider extends React.Component {
        <Splide options={{
          perPage: 1,
          perMove: 1,
+         cover: true,
          heightRatio: 0.5,
          autoplay: autoPlay,
          interval: 4000,
