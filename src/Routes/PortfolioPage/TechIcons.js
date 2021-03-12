@@ -7,11 +7,16 @@ import html from '../../images/tech-icons/html.png';
 import jquery from '../../images/tech-icons/jquery.png';
 import js from '../../images/tech-icons/js.png';
 import jsx from '../../images/tech-icons/jsx.png';
-import npm from '../../images/tech-icons/npm.png';
 import postgresql from '../../images/tech-icons/postgresql.png';
 import react from '../../images/tech-icons/react.png';
 import vercel from '../../images/tech-icons/vercel.png';
 import vscode from '../../images/tech-icons/vscode.png';
+import nodejs from '../../images/tech-icons/nodejs2.png';
+import mongodb from '../../images/tech-icons/mongodb.png';
+import mocha from '../../images/tech-icons/mocha.png';
+import angular from '../../images/tech-icons/angular.png';
+import typescript from '../../images/tech-icons/typescript.png';
+
 
 export const TechIcons = [
     {
@@ -67,7 +72,23 @@ export const TechIcons = [
 		imgSrc: vscode,
 	},
 	{
-		tech: 'npm',
-		imgSrc: npm,
+		tech: 'NodeJS',
+		imgSrc: nodejs,
+	},
+	{
+		tech: 'TypeScript',
+		imgSrc: typescript,
+	},
+	{
+		tech: 'Angular',
+		imgSrc: angular,
+	},
+	{
+		tech: 'MongoDB',
+		imgSrc: mongodb,
+	},
+	{
+		tech: 'Mocha',
+		imgSrc: mocha,
 	}
 ];

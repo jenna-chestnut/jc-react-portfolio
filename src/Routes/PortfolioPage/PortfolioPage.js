@@ -11,34 +11,33 @@ class PortfolioPage extends React.Component {
 		})
   }
   
-  renderTech(num) {
+  renderTech() {
     const makeIcon = (el, idx) => {
-      return <div key={idx} className='item'>
+      return <Fade key={el.tech + idx}>
+      <div className='item'>
       <img src={el.imgSrc} alt={el.tech}/>
       <span>{el.tech}</span>
-      </div>
+      </div></Fade>
     }
 
-    const firstRow = 
-    <div className='tech-icons'>
-    {TechIcons.map((el, idx) => {
-      if (idx < 7)
-      return makeIcon(el, idx)
-      else return ''
-    } 
-    )}</div>
+    let fi = []; let se = []; let th = [];
 
-    const secondRow = 
-    <div className='tech-icons'>
-    {TechIcons.map((el, idx) => {
-      if (idx >= 7)
-      return makeIcon(el, idx)
-      else return ''
-    }
-    )}</div>
+    TechIcons.forEach((el, idx) => {
+      let arr;
+      if (idx < 6) arr = fi;
+      if (idx >= 6 && idx < 12) arr = se;
+      if (idx >= 12) arr = th;
 
-    return num === 1 
-    ? firstRow : secondRow
+      arr.push(makeIcon(el, idx))
+    })
+
+    return (
+      <>
+        <div className='tech-icons'>{fi}</div>
+        <div className='tech-icons'>{se}</div>
+        <div className='tech-icons'>{th}</div>
+      </> 
+    )
   }
 
     render() {
@@ -47,14 +46,11 @@ class PortfolioPage extends React.Component {
         <div className="portfolio-page">
           <h2 className='p-h'>PORTFOLIO</h2>
 			  {this.renderProjects()}
-
         
         <div className='tech-div'>
           <h2>TECHNOLOGY</h2>
-          <Fade>{this.renderTech(1)}</Fade>
-          <Fade>{this.renderTech(2)}</Fade>
+          {this.renderTech()}
         </div>
-        
 
         </div>
       );

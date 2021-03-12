@@ -40,7 +40,7 @@ class HomePage extends React.Component {
 		
 			<div className="wrapper">
 			  <article id="intro" className="center">
-				  <h2 className="topspace hello">Hi there! I'm Jenna and I'm a web developer 
+				  <h2 className="topspace hello">Hi there! I'm Jenna and I'm a JavaScript developer 
 					living in Nashville, Tennessee.</h2>
 					<hr/>
 				<p>
