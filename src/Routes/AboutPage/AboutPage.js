@@ -80,7 +80,6 @@ class AboutPage extends React.Component {
 			  <div className='milestones-list'>
 				  <ul>
 				  <Fade duration={2000} cascade>
-					<li>Born in Alabama</li>
 					<li>
 					  Edited first code in 2006 <br />
 					  (think MySpace)
@@ -90,8 +89,8 @@ class AboutPage extends React.Component {
 					<li>Senior role at a small business</li>
 					<li>Passed all technical interviews <br />with Thinkful w/ perfect scores</li>
 					<li>Web development role</li>
-					<li>CRM consultant role</li>
-					<li>Built first full stack application</li>
+					<li>CRM/Systems consultant role</li>
+					<li>Built multiple full stack applications</li>
 					</Fade>
 				  </ul>
 				  </div>

@@ -41,7 +41,7 @@ export const Milestones = [
     },
     {
         year: '2020',
-        text: 'Built first full stack application',
+        text: 'Built full stack applications',
         fill: '#347eef'
     }
 ]

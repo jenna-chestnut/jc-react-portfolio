@@ -29,8 +29,8 @@ class ContactPage extends React.Component {
 			  </p>
 	
 			  <p className="center">
-				If you are looking for a study buddy, a mentee or a web
-				developer -  <a href="https://linktr.ee/jenna.chestnut" target="_blank"
+				If you are looking for a mentor, mentee, or developer - 
+         <a href="https://linktr.ee/jenna.chestnut" target="_blank"
                 rel="noreferrer" >let's connect</a>!
 			  </p>
         </div></div>

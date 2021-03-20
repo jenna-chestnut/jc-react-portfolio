@@ -23,7 +23,7 @@ export const PortfolioItems = [
     {
         title: 'MoveMed',
         description: 'I created this app with healthy continuous movement in mind. With MoveMed, the communication between provider and client is not broken after leaving the office. Providers can create exercises, and assign those exercises with unique details to a client. Clients can then view their goal and customized exercises anytime. Comments between providers and the client help add feedback in real time and maintain progress.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Heroku', 'Node', 'PostgreSQL', 'Vercel'],
+        tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Heroku', 'Node', 'MongoDB', 'Vercel'],
         liveLink: 'https://move-med.vercel.app/',
         repo: 'https://github.com/jenna-chestnut/move-med-client',
         images: [mM1, mM2, mM3, mM4, mM5]
