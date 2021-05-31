@@ -37,13 +37,13 @@ class AboutPage extends React.Component {
 				my tech skills, and fulfill my drive to improve the lives of others.
 			  </p>
 	
-			  <p className="bottompadding">
-				As the go-to person for error messages, website tweaks and needed
-				fixes when IT wasn't around, I knew that I wanted to learn and
-				accomplish much more. Now that I have developed my first website 
-				and currently work as a systems consultant, 
-				I have made this goal a reality.
+			  <p>
+				As the go-to person for error messages, website tweaks and needed fixes when IT isn't around, I know that I want to learn and accomplish much more. Since completing a programming bootcamp and accepting a position as backend operations manager and marketing assistant, I have turned this goal into a reality!
 			  </p>
+
+				<p className="bottompadding">
+				In my current position as operations manager and marketing assistant, I am constantly utilizing and developing my interpersonal and leadership skills. My experience and passion for tech has given me additional perspective, and with it an advantage in facilitating successful automated marketing events, data collection and workflow processes. 
+				</p>
 			  </Fade>
 			  </div>
 
@@ -91,6 +91,7 @@ class AboutPage extends React.Component {
 					<li>Web development role</li>
 					<li>CRM/Systems consultant role</li>
 					<li>Built multiple full stack applications</li>
+					<li>Operations Manager and Marketing Assistant Role</li>
 					</Fade>
 				  </ul>
 				  </div>

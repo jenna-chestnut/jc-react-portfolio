@@ -29,7 +29,7 @@ class ContactPage extends React.Component {
 			  </p>
 	
 			  <p className="center">
-				If you are looking for a mentor, mentee, or developer - 
+				If you are looking for a coding buddy - 
          <a href="https://linktr.ee/jenna.chestnut" target="_blank"
                 rel="noreferrer" >let's connect</a>!
 			  </p>
@@ -57,7 +57,7 @@ class ContactPage extends React.Component {
 
         <img src={resumeImg} alt='resume'/>
 
-        <a className='resume-button' href='https://drive.google.com/file/d/1k6Z2JvNT-5pn-9Ypl_YWXkkOXVSsvskn/view?usp=sharing' target='_blank' rel='noreferrer'>View Resume</a>
+        <a className='resume-button' href='https://drive.google.com/file/d/1WdKVTFeqqK7vMTJYhWtU4rV_lqnBo0GE/view?usp=sharing' target='_blank' rel='noreferrer'>View Resume</a>
         </div></div></div>
         </Fade>
 
@@ -67,7 +67,7 @@ class ContactPage extends React.Component {
         <article id="contactme">
           <div className="center wrapper">
             <h3 className='topspace'>CONTACT</h3>
-            <p>Ideas, advice, recruitment and new friends are welcome!</p>
+            <p>Ideas, advice, and new friends are welcome!</p>
             <p className="linktree">
               <a href="https://linktr.ee/jenna.chestnut" target="_blank"
                 rel="noreferrer" ><img src={linkTreeLogo} alt="LinkTree"/></a
