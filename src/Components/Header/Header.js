@@ -12,9 +12,14 @@ class Header extends React.Component {
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/contact">Contact</Link>
         </nav>
-        <h1 className="item">
-            <Link to='/'>Jenna Chestnut</Link>
-            </h1>
+        <div className="item">
+            <h1><Link to='/'>Jenna Chestnut</Link></h1>
+            <div className='h-s-d'>
+              <span> Static and Dynamic Web development 
+				          | Systems Consulting and Redesign
+				          | Virtual Assistant</span>
+            </div>
+        </div>
         </header>
       );
     }

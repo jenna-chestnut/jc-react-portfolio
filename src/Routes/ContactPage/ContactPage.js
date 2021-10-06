@@ -19,19 +19,16 @@ class ContactPage extends React.Component {
         <Fade>
         <div className="lets-connect">
 			  <div className="wrapper">
-			  <h4 className="center">LET'S CONNECT</h4>
+			  <h4 className="center">INQUIRIES WELCOME</h4>
 			  <p>
-				My past work history has always involved working with a closely knit
-				team. While I have been able to manage and complete tasks in
-				solitude, cooperation and collaboration can be paramount in
-				successfully achieving goals. I would love to meet and work with others that have the same
-				passion!
+				My true passion is making a positive impact in small businesses by adding structure to systems, and form to ideas.</p>
+        <p>In addition to that, I recognize that optimized systems and automations help to decrease human error, improve consistency/efficiency, and ultimately save the thing we all value the most - our time!
 			  </p>
 	
 			  <p className="center">
-				If you are looking for a coding buddy - 
+				If you are looking to build a website, or find yourself bogged down with the backend work in your small business - 
          <a href="https://linktr.ee/jenna.chestnut" target="_blank"
-                rel="noreferrer" >let's connect</a>!
+                rel="noreferrer" > let's connect</a> !
 			  </p>
         </div></div>
         </Fade>
@@ -42,13 +39,17 @@ class ContactPage extends React.Component {
         <div className='item group'>
 			  <div className="r-d">
 				<h4>SERVICES PROVIDED</h4>
-				<p>Static and Dynamic Web Development</p>
-				<p>Responsive Design</p>
-				<p>Website Redesign</p>
-				<p>Website Management</p>
-				<p>Server Side Programming</p>
-				<p>Web Based Applications</p>
-				<p>Membership Services</p>
+				<p><b>Static and Dynamic Web Development</b></p>
+        <p>Responsive Design - Website Redesign - Website Management - Server Side Programming 
+          - Web Based Applications - Membership Services</p>
+
+        <p><b>Systems Consulting</b></p>
+        <p>CRM - Integration - Automation - File Organization and Access 
+          - Task Applications - Process Optimization</p>
+
+        <p><b>Virtual Assistant</b></p>
+        <p>Schedule Management - Project Management - Email Correspondence 
+          - Data Entry - Business Metric Tracking - Marketing Assistant - Executive Assistant</p>
 			  </div>
 			  </div>
 
@@ -67,12 +68,6 @@ class ContactPage extends React.Component {
         <article id="contactme">
           <div className="center wrapper">
             <h3 className='topspace'>CONTACT</h3>
-            <p>Ideas, advice, and new friends are welcome!</p>
-            <p className="linktree">
-              <a href="https://linktr.ee/jenna.chestnut" target="_blank"
-                rel="noreferrer" ><img src={linkTreeLogo} alt="LinkTree"/></a
-              >
-            </p>
           </div>
         </article>
       <div className="center wrapper buttons bottomspace">
@@ -91,10 +86,15 @@ class ContactPage extends React.Component {
             rel="noreferrer"><img src={emailIcon} alt="Send an Email"
           /></a>
         </div>
+        <div className="item">
+        <a href="https://linktr.ee/jenna.chestnut" target="_blank"
+                rel="noreferrer" ><img src={linkTreeLogo} alt="LinkTree"/>
+        </a>
+        </div>
       </div>
 
       <Fade>
-      <div className='contact-form'>
+      <div className='contact-form' id='contact-form'>
       <ContactForm />
       </div>
       </Fade>

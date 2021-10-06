@@ -18,9 +18,15 @@ fieldset {
     font-size: 35px;
     letter-spacing: 5px;
     color: #000000;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 0px 10px;
     text-align: center;
+  }
+
+  .contact-form p {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 14px;
   }
   
   button {
@@ -80,6 +86,9 @@ fieldset {
       margin-left: 7%;
     }
     legend {
-      padding: 10px 20px;
+      padding: 0px 20px;
+    }
+    .contact-form p {
+      font-size: 20px;
     }
 }

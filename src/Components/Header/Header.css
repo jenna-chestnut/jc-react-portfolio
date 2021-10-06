@@ -7,6 +7,15 @@ h1 {
     width: 100%;
 }
 
+header span {
+    font-size: 12px;
+    text-align: center;
+}
+
+.h-s-d {
+    margin: 10px;
+}
+
 nav {
     margin: auto;
     position: fixed;
@@ -52,5 +61,15 @@ nav a {
     }
     header {
         margin-top: 0;
+    }
+    header span {
+        font-size: 12px;
+        text-align: right;
+        position: absolute;
+        right: 20px;
+        top: 90px;
+    }
+    .h-s-d {
+        margin: auto;
     }
 }

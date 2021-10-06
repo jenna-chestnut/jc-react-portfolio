@@ -4,6 +4,10 @@
   margin: 10px auto;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 .lets-connect {
     padding: 30px 0;
     background-color: #2a393f;
@@ -33,7 +37,7 @@
 }
 
 .r-d {
-  padding: 30px 5px;
+  padding: 30px 15px;
   display: flex;
   margin: 10px auto;
   flex-direction: column;

@@ -2,7 +2,7 @@ import './AboutPage.css';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import jennaDeskShot from '../../images/jenna-at-desk.jpg';
+import headShotImg from '../../images/jenna-smile-woodsbackground.jpg';
 import jennaSalemHike from '../../images/jenna-and-salem-on-mountain-square.jpg';
 import MilestonesWidget from '../../Components/MilestonesWidget/MilestonesWidget';
 import { Milestones } from './Milestones';
@@ -25,7 +25,7 @@ class AboutPage extends React.Component {
         <article id="aboutme" className="about-page">
 			<div className='about-hero'>
 			<h2>ABOUT ME</h2>
-			<img src={jennaDeskShot} alt='Jenna at desk'/>
+			<img src={headShotImg} alt='Jenna smiling'/>
 			</div>
 			<div className="toppadding bottompadding">
 			<div className="wrapper">
@@ -38,11 +38,11 @@ class AboutPage extends React.Component {
 			  </p>
 	
 			  <p>
-				As the go-to person for error messages, website tweaks and needed fixes when IT isn't around, I know that I want to learn and accomplish much more. Since completing a programming bootcamp and accepting a position as backend operations manager and marketing assistant, I have turned this goal into a reality!
+				As the go-to person for error messages, website tweaks and needed fixes when IT isn't around, I knew that I wanted to accomplish much more. Since early 2021, in obtaining an immersive web development certificate, building my first paid website, and taking on a position as backend operations manager and marketing assistant, I am turning this goal into a reality!
 			  </p>
 
 				<p className="bottompadding">
-				In my current position as operations manager and marketing assistant, I am constantly utilizing and developing my interpersonal and leadership skills. My experience and passion for tech has given me additional perspective, and with it an advantage in facilitating successful automated marketing events, data collection and workflow processes. 
+				Whether it be the layout, color scheme, friendly UX, written voice or strong architecture of code - my creative mind, eye for design and analytical nature shine through the programming work I produce. My recent position as operations manager of a small business gave me the opportunity to further hone my interpersonal and leadership skills. My experience and passion for tech gives me additional perspective, and with it an advantage in facilitating successful automated marketing events, data collection and workflow processes.
 				</p>
 			  </Fade>
 			  </div>
@@ -60,9 +60,8 @@ class AboutPage extends React.Component {
 				  <p>
 					During my down time, I love exploring in nature and hiking with
 					my dog Salem! I love taking pictures and have a Nikon D3300. I've always
-					enjoyed video games as well. I'm currently into first person
-					survival style games that involve puzzles - Outer Wilds is a
-					personal favorite. I also enjoy singing, painting, and
+					enjoyed video games as well - Outer Wilds is a
+					personal favorite. I also enjoy singing, playing the flute, painting, and
 					trying/making new foods.
 				  </p>
 				</div></div>

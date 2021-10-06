@@ -2,7 +2,7 @@ import './HomePage.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../images/salemthedog-smiling.jpg';
-import headshotImg from '../../images/jenna-smile-woodsbackground-square.jpg';
+import headshotImg from '../../images/selfie-square.jpg';
 import portfolioImg from '../../images/portfolio-window.png';
 import HomePageWindow from '../../Components/HomePageWindow/HomePageWindow';
 import Fade from 'react-reveal/Fade';
@@ -39,20 +39,27 @@ class HomePage extends React.Component {
 		<img className='hp-headshot' src={headshotImg} alt='headshot'/>
 		
 			<div className="wrapper">
-			  <article id="intro" className="center">
-				  <h2 className="topspace hello">Hi there! I'm Jenna and I'm a JavaScript developer 
+			  <article id="intro" className="center bottomspace">
+				  <h2 className="topspace hello">I'm Jenna. I'm a JavaScript developer 
 					living in Nashville, Tennessee.</h2>
 					<hr/>
 				<p>
 				  I have a genuine love for technology and how it helps to better
-				  the world through connection and innovation - and I'm beyond
-				  excited to meet, collaborate and learn with others who feel the
-				  same way.
+				  the world through connection, innovation and creation. <b>I'm passionate about utilizing my technical skills
+					to help solo entrepreneurs and small businesses meet their goals.</b> 
 				</p>
-				<p>I hope you enjoy my website, and please don't hesitate to send a
-				message. Don't forget to 
+				<p>I hope you enjoy my website. Don't forget to 
                 <Link to="/contact"> connect</Link>!</p>
 			  </article>
+			<div className='open-to-work topspace center'>
+				<a className='message-button' href="https://jennachestnut.com/contact#contact-form" target="_blank"
+                rel="noreferrer">Inquire Cost & Availability</a>
+				<br/>
+				<p>Static and Dynamic Web development 
+				| Systems Consulting and Redesign
+				| Virtual Assistant
+				</p>
+			</div>
 		  </div>
         </div>
       );

@@ -52,6 +52,24 @@
     width: 100%;
 }
 
+.open-to-work p {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.message-button {
+    color: white;
+    background-color: #750d37;
+    width: 45%;
+    padding: 10px 15px;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+.message-button:hover {
+    color: white;
+}
+
 @media all and (min-width: 600px) {
     .hp-headshot {
         display: none;

@@ -9,6 +9,7 @@ class ContactForm extends React.Component {
         <form action="https://formspree.io/f/xdopldyp" method="post">
           <fieldset>
             <legend>SEND A MESSAGE</legend>
+            <p>Inquiries | Recruitment | Networking | Feedback</p>
 
             <label htmlFor="name">NAME:</label>
             <input type="text" id="name" name="name" />
