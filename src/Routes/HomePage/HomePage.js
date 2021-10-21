@@ -40,7 +40,7 @@ class HomePage extends React.Component {
 		
 			<div className="wrapper">
 			  <article id="intro" className="center bottomspace">
-				  <h2 className="topspace hello">I'm Jenna. I'm a JavaScript developer 
+				  <h2 className="topspace hello">I'm <span className='my-name'>Jenna</span>. I'm a JavaScript developer 
 					living in Nashville, Tennessee.</h2>
 					<hr/>
 				<p>
@@ -52,8 +52,7 @@ class HomePage extends React.Component {
                 <Link to="/contact"> connect</Link>!</p>
 			  </article>
 			<div className='open-to-work topspace center'>
-				<a className='message-button' href="https://jennachestnut.com/contact#contact-form" target="_blank"
-                rel="noreferrer">Inquire Cost & Availability</a>
+				<a className='message-button' href="https://jennachestnut.com/contact#contact-form" rel="noreferrer">Inquire Cost & Availability</a>
 				<br/>
 				<p>Static and Dynamic Web development 
 				| Systems Consulting and Redesign

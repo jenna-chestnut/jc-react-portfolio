@@ -4,7 +4,11 @@
   margin: 10px auto;
 }
 
-h4 {
+h3 {
+  font-size: 20px;
+}
+
+.CTA {
   font-size: 20px;
 }
 
@@ -69,5 +73,9 @@ h4 {
   .resume img {
     width: 50%;
     margin: 20px auto;
+  }
+  h3 {
+    font-size: 25px;
+    margin: 15px auto;
   }
 }

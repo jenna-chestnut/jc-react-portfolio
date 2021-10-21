@@ -18,14 +18,14 @@ class ContactPage extends React.Component {
 
         <Fade>
         <div className="lets-connect">
-			  <div className="wrapper">
-			  <h4 className="center">INQUIRIES WELCOME</h4>
+			  <div className="wrapper center">
+			  <h3 className="center">INQUIRIES WELCOME</h3>
 			  <p>
 				My true passion is making a positive impact in small businesses by adding structure to systems, and form to ideas.</p>
-        <p>In addition to that, I recognize that optimized systems and automations help to decrease human error, improve consistency/efficiency, and ultimately save the thing we all value the most - our time!
+        <p>From my experience, I recognize that optimized systems and automations help to decrease human error, improve consistency/efficiency, and ultimately save the thing we all value the most - our time!
 			  </p>
 	
-			  <p className="center">
+			  <p className="CTA center">
 				If you are looking to build a website, or find yourself bogged down with the backend work in your small business - 
          <a href="https://linktr.ee/jenna.chestnut" target="_blank"
                 rel="noreferrer" > let's connect</a> !
@@ -38,7 +38,7 @@ class ContactPage extends React.Component {
 
         <div className='item group'>
 			  <div className="r-d">
-				<h4>SERVICES PROVIDED</h4>
+				<h3>SERVICES PROVIDED</h3>
 				<p><b>Static and Dynamic Web Development</b></p>
         <p>Responsive Design - Website Redesign - Website Management - Server Side Programming 
           - Web Based Applications - Membership Services</p>

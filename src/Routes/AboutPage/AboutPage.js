@@ -61,7 +61,7 @@ class AboutPage extends React.Component {
 					During my down time, I love exploring in nature and hiking with
 					my dog Salem! I love taking pictures and have a Nikon D3300. I've always
 					enjoyed video games as well - Outer Wilds is a
-					personal favorite. I also enjoy singing, playing the flute, painting, and
+					personal favorite. I also enjoy singing, playing the flute & guitar, painting, and
 					trying/making new foods.
 				  </p>
 				</div></div>

@@ -1,8 +1,63 @@
 footer {
     text-align: center;
-    margin-top: 15px;
 }
 
-footer span {
+.footer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-details .logo {
+    max-width: 100px;
+    max-height: 100px;
+    align-self: center;
+    margin-left: 15px;
+}
+
+div .footer-contact {
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.footer-bar {
+    background-color:#f3748b;
+    padding: 5px 0;
+    width: 99.8%;
+    margin: 0 0 10px 0;
+}
+
+footer .item span, footer .item .tiny-icons {
+    align-self: center;
     padding: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto;
+}
+
+.lil-r {
+    font-size: 12px;
+}
+
+.tiny-icons a img {
+    width: auto;
+    margin: 4px;
+}
+
+@media all and (min-width: 600px) {
+    .footer-details .logo {
+        max-width: 150px;
+        max-height: 150px;
+        align-self: left;
+        margin-left: 25px;
+    }
+
+    .footer-details {
+        flex-direction: row;
+    }
+
+    div .footer-contact {
+        flex-direction: column;
+        vertical-align: middle;
+        padding: 10px;
+    }
 }

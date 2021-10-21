@@ -18,6 +18,10 @@
     font-size: 30px;
 }
 
+.my-name {
+    color: #e46179;
+}
+
 .hp-w-container {
     display: flex;
     height: 40px;
@@ -26,7 +30,7 @@
     height: 100px;
     position: relative;
     text-align: center;
-    background-image: url('../../images/vector-marble-texture-seamless-pattern-design-with-white-squares-jelena-obradovic.jpg');
+    background-image: url('../../images/mountains-background.JPG');
     background-attachment: fixed;
 }
 
@@ -43,7 +47,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    margin: 20px auto;
+    margin: 10px auto 20px auto;
     width: 90%;
     font-size: 20px;
 }
@@ -79,7 +83,8 @@
         bottom: 0;
         left: 0;
         right: 0;
-        margin: 60px auto;
+        padding-top: 25px;
+        margin: 70px auto;
         width: 80%;
         font-size: 35px;
     }

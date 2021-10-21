@@ -7,6 +7,10 @@ h1 {
     width: 100%;
 }
 
+h1 a {
+    color: #e46179;
+}
+
 header span {
     font-size: 12px;
     text-align: center;
