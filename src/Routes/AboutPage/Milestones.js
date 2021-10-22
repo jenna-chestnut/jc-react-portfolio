@@ -7,41 +7,41 @@ export const Milestones = [
     {
         year: '2006',
         text: 'Edited first code (think MySpace)',
-        fill: '#d62828'
+        fill: '#18A999'
     },
     {
         year: '2010',
         text: 'Obtained GED',
-        fill: '#f77f00'
+        fill: '#750d37'
     },
     {
         year: '2016',
         text: 'Management role in a restaurant',
-        fill: '#18A999'
+        fill: '#392759'
     },
     {
         year: '2018',
         text: 'Senior role in a small business',
-        fill: '#750d37'
-    },
-    {
-        year: '2020',
-        text: 'Passed all Thinkful Technical interviews',
-        fill: '#234326'
+        fill: '#f77f00'
     },
     {
         year: '2020',
         text: 'Web development role',
-        fill: '#392759'
+        fill: '#234326'
     },
     {
         year: '2020',
-        text: 'CRM & Systems consultant',
+        text: 'First CRM & Systems consultant role',
         fill: '#4A2545'
     },
     {
-        year: '2020',
-        text: 'Built full stack applications',
+        year: '2021',
+        text: 'Full stack development certification',
+        fill: '#d62828'
+    },
+    {
+        year: '2021',
+        text: 'Self employed and helping multiple small businesses',
         fill: '#347eef'
     }
 ]

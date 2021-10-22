@@ -86,11 +86,12 @@ class AboutPage extends React.Component {
 					<li>Obtained GED</li>
 					<li>Restaurant management role</li>
 					<li>Senior role at a small business</li>
-					<li>Passed all technical interviews <br />with Thinkful w/ perfect scores</li>
+					<li>Obtained an immersive web development certificate</li>
 					<li>Web development role</li>
-					<li>CRM/Systems consultant role</li>
 					<li>Built multiple full stack applications</li>
 					<li>Operations Manager and Marketing Assistant Role</li>
+					<li>CRM/Systems consultant roles</li>
+					<li>Self employed and helping multiple small businesses</li>
 					</Fade>
 				  </ul>
 				  </div>

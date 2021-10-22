@@ -20,13 +20,14 @@ class PortfolioPage extends React.Component {
       </div></Fade>
     }
 
-    let fi = []; let se = []; let th = [];
+    let fi = []; let se = []; let th = []; let fo = [];
 
     TechIcons.forEach((el, idx) => {
       let arr;
       if (idx < 6) arr = fi;
       if (idx >= 6 && idx < 12) arr = se;
-      if (idx >= 12) arr = th;
+      if (idx >= 12 && idx < 18) arr = th;
+      if (idx >= 18) arr = fo;
 
       arr.push(makeIcon(el, idx))
     })
@@ -36,6 +37,7 @@ class PortfolioPage extends React.Component {
         <div className='tech-icons'>{fi}</div>
         <div className='tech-icons'>{se}</div>
         <div className='tech-icons'>{th}</div>
+        <div className='tech-icons margined'>{fo}</div>
       </> 
     )
   }
