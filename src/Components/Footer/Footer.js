@@ -4,7 +4,7 @@ import logo from '../../images/logo.png';
 import githubIcon from '../../images/github-icon-tiny.png';
 import twitterIcon from '../../images/twitter-icon-tiny.png';
 import linkedInIcon from '../../images/linkedin-icon-tiny.png';
-import instagramIcon from '../../images/instagram-icon-tiny.png';
+import youtubeIcon from '../../images/yt-icon-tiny.png';
 
 class Footer extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class Footer extends React.Component {
                 <a href='https://github.com/jenna-chestnut' target="_blank" rel="noreferrer"><img src={githubIcon} alt='tiny github icon'/></a>
                 <a href='https://twitter.com/Jennabot5000' target="_blank" rel="noreferrer"><img src={twitterIcon} alt='tiny twitter icon'/></a>
                 <a href='https://www.linkedin.com/in/jenna-chestnut/' target="_blank" rel="noreferrer"><img src={linkedInIcon} alt='tiny linkedin icon'/></a>
-                <a href='https://www.instagram.com/jennabot5000/' target="_blank" rel="noreferrer"><img src={instagramIcon} alt='tiny instagram icon'/></a>
+                <a href='https://www.youtube.com/channel/UCcVIfNta88p-qtpNpLbZapQ' target="_blank" rel="noreferrer"><img src={youtubeIcon} alt='tiny instagram icon'/></a>
                 </div>
                 <span className='lil-r'>Created with React</span>
             </div>
