@@ -14,32 +14,37 @@ class PortfolioPage extends React.Component {
   renderTech() {
     const makeIcon = (el, idx) => {
       return <Fade key={el.tech + idx}>
-      <div className='item'>
+      <div className='grid-item'>
       <img src={el.imgSrc} alt={el.tech}/>
       <span>{el.tech}</span>
       </div></Fade>
     }
 
-    let fi = []; let se = []; let th = []; let fo = [];
+    let iconsArray = [];
 
     TechIcons.forEach((el, idx) => {
-      let arr;
-      if (idx < 6) arr = fi;
-      if (idx >= 6 && idx < 12) arr = se;
-      if (idx >= 12 && idx < 18) arr = th;
-      if (idx >= 18) arr = fo;
-
-      arr.push(makeIcon(el, idx))
+      iconsArray.push(makeIcon(el, idx));
     })
 
-    return (
-      <>
-        <div className='tech-icons'>{fi}</div>
-        <div className='tech-icons'>{se}</div>
-        <div className='tech-icons'>{th}</div>
-        <div className='tech-icons margined'>{fo}</div>
-      </> 
-    )
+    // TechIcons.forEach((el, idx) => {
+    //   let iconArrayIdx = Math.floor(idx/3); //*instead of 3, need logic to choose depending on window width!!
+
+    //   if (!iconsArray[iconArrayIdx]) {
+    //     iconsArray.push([makeIcon(el, idx)]);
+    //   }
+
+    //   else {
+    //     let arr = iconsArray[iconArrayIdx];
+    //     arr.push(makeIcon(el, idx));
+    //   }
+
+    // })
+
+    // iconsArray = iconsArray.map(el => {
+    //   return <div className='tech-icons'>{el}</div>
+    // })
+
+    return <div className="grid-container">{iconsArray}</div>;
   }
 
     render() {
