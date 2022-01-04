@@ -1,22 +1,19 @@
-.about-hero {
-    position: relative;
+.about-page h2 {
+    font-size: 45px;
 }
 
-.about-hero h2 {
-    text-align: right;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 5px;
-    padding: 5px 20px 5px 0;
-    color: white;
-    font-size: 35px;
-    background-color: #0000006e;
+.about-page h2.mobile-h2 {
+    margin: 0px auto 10px 5px;
+    text-align: left;
+}
+
+.about-page h2.desktop-h2 {
+    visibility: hidden;
+    display: none;
 }
 
 .toppadding {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .bottompadding {
@@ -50,21 +47,28 @@
     padding: 25px 0;
 }
 
-@media all and (min-width: 700px) {
-    .about-hero h2 {
-    text-align: left;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: auto;
-    padding: 15px;
-    color: white;
-    font-size: 45px;
-    background-color: #0000005d;
+@media all and (min-width: 900px) {
+
+    .about-page h2.mobile-h2 {
+        visibility: hidden;
+        display: none;
     }
+
+    .about-page h2.desktop-h2 {
+        visibility: visible;
+        display: block;
+    }
+
+    .about-text-group {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-end;
+    }
+}
+
+@media all and (min-width: 700px) {
+    
     .outside-of-tech {
         display: flex;
         justify-content: center;

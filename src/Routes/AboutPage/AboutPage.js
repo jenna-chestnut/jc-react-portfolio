@@ -2,7 +2,7 @@ import './AboutPage.css';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import headShotImg from '../../images/jenna-smile-woodsbackground.jpg';
+import headShotImg from '../../images/jenna-sitting-cropped-popout.png'
 import jennaSalemHike from '../../images/jenna-and-salem-on-mountain-square.jpg';
 import MilestonesWidget from '../../Components/MilestonesWidget/MilestonesWidget';
 import { Milestones } from './Milestones';
@@ -22,23 +22,37 @@ class AboutPage extends React.Component {
   render() {
 
       return (
-        <article id="aboutme" className="about-page">
-			<div className='about-hero'>
-			<h2>ABOUT ME</h2>
-			<img src={headShotImg} alt='Jenna smiling'/>
-			</div>
+      <article id="aboutme" className="about-page">
 			<div className="toppadding bottompadding">
 			<div className="wrapper">
 			<Fade duration={2000}>
-			  <p>
-				Since my first login, I've always had a penchant for navigating
+				<div className="group">
+	
+				<h2 className='mobile-h2'>ABOUT ME</h2>
+
+				<div className="item about-photo">
+				<h2 className='desktop-h2'>ABOUT ME</h2>
+				<img src={headShotImg} alt='Jenna smiling'/>
+				</div>
+
+				<div className="item about-text-group">
+				<p>
+				Since my first keystroke, I've always had a penchant for navigating
 				computer systems. The purposeful shift from restaurant industry to
 				the medical field in 2017 gave me an opportunity to further explore
 				my tech skills, and fulfill my drive to improve the lives of others.
 			  </p>
-	
-			  <p>
-				As the go-to person for error messages, website tweaks and needed fixes when IT isn't around, I knew that I wanted to accomplish much more. Since early 2021, in obtaining an immersive web development certificate, building my first paid website, and taking on a position as backend operations manager and marketing assistant, I am turning this goal into a reality!
+
+				<p>
+				As the go-to person for error messages, website tweaks and needed fixes when IT wasn't around, I knew that I wanted to accomplish much more.
+				</p> 
+
+				</div>
+
+				</div>
+
+				<p>
+			   Since early 2021, in obtaining an immersive web development certificate, building my first paid website, and taking on a position as backend operations manager and marketing assistant, I am turning this goal into a reality!
 			  </p>
 
 				<p className="bottompadding">
@@ -50,9 +64,6 @@ class AboutPage extends React.Component {
 			<Fade duration={2000}>
 			  <section className="lightblue">
 				  <div className="wrapper group">
-			  <div className="item">
-			  <img src={jennaSalemHike} alt='Jenna and Salem hiking'/>
-				 </div>
 				 
 				<div className="item outside-of-tech">
 					<div className="to-center">
@@ -65,6 +76,11 @@ class AboutPage extends React.Component {
 					trying/making new foods.
 				  </p>
 				</div></div>
+
+				<div className="item">
+			  <img src={jennaSalemHike} alt='Jenna and Salem hiking'/>
+				 </div>
+
 				</div>
 			  </section>
 			  </Fade>
