@@ -23,7 +23,7 @@ class AboutPage extends React.Component {
 
       return (
       <article id="aboutme" className="about-page">
-			<div className="toppadding bottompadding">
+			<div className="toppadding bottompadding pink-circle-bg">
 			<div className="wrapper">
 			<Fade duration={2000}>
 				<div className="group">
@@ -37,8 +37,8 @@ class AboutPage extends React.Component {
 
 				<div className="item about-text-group">
 				<p>
-				Since my first keystroke, I've always had a penchant for navigating
-				computer systems. The purposeful shift from restaurant industry to
+				Since my first keystroke, I've always found joy in navigating
+				computer systems. The purposeful shift from the restaurant industry to
 				the medical field in 2017 gave me an opportunity to further explore
 				my tech skills, and fulfill my drive to improve the lives of others.
 			  </p>
@@ -51,12 +51,16 @@ class AboutPage extends React.Component {
 
 				</div>
 
-				<p>
-			   Since early 2021, in obtaining an immersive web development certificate, building my first paid website, and taking on a position as backend operations manager and marketing assistant, I am turning this goal into a reality!
+				<p className='toppadding'>
+			   In obtaining an immersive web development certificate in early 2021, building my first paid website, and taking on remote positions in operations, marketing, development and administrative roles with great success, I am turning this goal into a reality!
 			  </p>
 
+				<p>
+				Whether it be the layout, color scheme, friendly UX, written voice or strong architecture of code—my creative mind, eye for design and analytical nature shine through the programming work I produce. My administrative and operations roles in small businesses give me the opportunity to continually hone my interpersonal and leadership skills. 
+				</p>
+
 				<p className="bottompadding">
-				Whether it be the layout, color scheme, friendly UX, written voice or strong architecture of code - my creative mind, eye for design and analytical nature shine through the programming work I produce. My recent position as operations manager of a small business gave me the opportunity to further hone my interpersonal and leadership skills. My experience and passion for tech gives me additional perspective, and with it an advantage in facilitating successful automated marketing events, data collection and workflow processes.
+				My experience and passion for tech, combined with my history in the service industry gives me additional perspective—and with it an advantage in facilitating successful automated marketing events, data collection and workflow processes.
 				</p>
 			  </Fade>
 			  </div>
@@ -95,19 +99,15 @@ class AboutPage extends React.Component {
 			  <div className='milestones-list'>
 				  <ul>
 				  <Fade duration={2000} cascade>
-					<li>
-					  Edited first code in 2006 <br />
-					  (think MySpace)
-					</li>
-					<li>Obtained GED</li>
-					<li>Restaurant management role</li>
-					<li>Senior role at a small business</li>
-					<li>Obtained an immersive web development certificate</li>
-					<li>Web development role</li>
-					<li>Built multiple full stack applications</li>
-					<li>Operations Manager and Marketing Assistant Role</li>
-					<li>CRM/Systems consultant roles</li>
-					<li>Self employed and helping multiple small businesses</li>
+					<li>2006: Edited first code</li>
+					<li>2010: Obtained GED</li>
+					<li>2016: Restaurant management role</li>
+					<li>2018: Senior role at a small business</li>
+					<li>2021: Immersive web development certificatation</li>
+					<li>2021: Web development role</li>
+					<li>2021: Operations manager role</li>
+					<li>2021: CRM/Systems consultant role</li>
+					<li>2022: Self employment</li>
 					</Fade>
 				  </ul>
 				  </div>

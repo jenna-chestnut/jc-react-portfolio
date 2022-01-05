@@ -32,14 +32,11 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
-  transition: linear 1s;
+  color: #007e7e;
 }
 
 a:hover {
-  color: #386e6c;
-  letter-spacing: 2px;
-    transition: linear 1s;
+  color: #67eeee;
 }
 
 img {

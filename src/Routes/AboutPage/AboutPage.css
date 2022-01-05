@@ -20,6 +20,10 @@
     padding-bottom: 50px;
 }
 
+.light-pink-bg {
+    background-color: #F5D6DC;
+}
+
 .milestones-widget {
     display: none;
 }
@@ -35,11 +39,27 @@
     padding-right: 15px;
 }
 
+.pink-circle-bg {
+    background-image: url('../../images/pink-circle.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 .milestones-list {
     display: flex;
     width: 95%;
     margin: 15px auto;
     font-size: 20px;
+}
+
+.milestones-list ul { 
+    list-style: none;
+    padding: 5px;
+}
+
+.milestones-list li {
+    margin: 20px auto;
 }
 
 .lightblue {

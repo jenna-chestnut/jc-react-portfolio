@@ -30,10 +30,6 @@ class HomePage extends React.Component {
 		<div className='hp-w-container'>
 		{this.HomePageWindows()}
 
-		<Fade top duration={2000}>
-		<h2 className="hero-text">CREATIVE CALCULATIONS</h2>
-		</Fade>
-
 		</div>
 
 		<img className='hp-headshot' src={headshotImg} alt='headshot'/>

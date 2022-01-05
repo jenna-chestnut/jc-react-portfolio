@@ -41,7 +41,7 @@ export const Milestones = [
     },
     {
         year: '2021',
-        text: 'Self employed and helping multiple small businesses',
+        text: 'Self employment',
         fill: '#347eef'
     }
 ]

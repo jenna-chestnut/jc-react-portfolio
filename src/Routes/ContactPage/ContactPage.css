@@ -18,7 +18,10 @@ h3 {
     color: white;
 }
 
-.lets-connect a, .lets-connect a:hover,
+.lets-connect a, .lets-connect a:hover {
+  color: #67eeee;
+}
+
 .resume a, .resume a:hover {
   color: white;
 }
@@ -32,7 +35,7 @@ h3 {
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: #F4F2F8;
+  background-color: #F5D6DC;
 }
 
 .resume img {
@@ -48,11 +51,15 @@ h3 {
 }
 
 .resume-button {
-  background-color: #750d37;
+  background-color: #007a7a;
   width: 45%;
   padding: 10px;
   margin: auto;
   border-radius: 15px;
+}
+
+.resume-button:hover {
+  background-color: #1c9292;
 }
 
 .buttons {
