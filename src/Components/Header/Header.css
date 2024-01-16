@@ -1,83 +1,83 @@
 h1 {
-    padding-top: 10px;
-    font-size: 45px;
-    margin-top: 45px;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 100%;
+	padding-top: 10px;
+	font-size: 45px;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
 }
 
 h1 a {
-    color: #e46179;
+	color: #e36414;
 }
 
 h1 a:hover {
-    color: #da7f90;
+	color: #da7f90;
 }
 
 header span {
-    font-size: 12px;
-    text-align: center;
+	font-size: 12px;
+	text-align: center;
 }
 
 .h-s-d {
-    margin: 10px;
+	margin: 10px;
 }
 
 nav {
-    margin: auto;
-    position: fixed;
-    right: 0px;
-    text-align: right;
-    padding: 20px 10px;
-    background-color: #fffffffa;
-    z-index: 150;
-    width: 100%;
+	margin: auto;
+	position: fixed;
+	right: 0px;
+	text-align: right;
+	padding: 20px 10px;
+	background-color: #fffffffa;
+	z-index: 150;
+	width: 100%;
 }
 
 .h-group {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: 10px;
 }
 
 nav a {
-    color: black;
-    margin: 10px 20px 0 0;
-    text-decoration: none;
-    vertical-align: middle;
-    width: 100%;
+	color: black;
+	margin: 10px 20px 0 0;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 100%;
 }
 
 @media all and (min-width: 600px) {
-    .h-group {
-        flex-direction: row;
-        padding: 0 3%;
-    }
-    h1 {
-        text-align: right;
-        font-size: 45px;
-        letter-spacing: 2px;
-        margin: 25px auto 20px 20px;
-    }
-    nav {
-        position: relative;
-        padding: 0px;
-        margin: auto;
-        width: auto;
-    }
-    header {
-        margin-top: 0;
-    }
-    header span {
-        font-size: 12px;
-        text-align: right;
-        position: absolute;
-        right: 20px;
-        top: 90px;
-    }
-    .h-s-d {
-        margin: auto;
-    }
+	.h-group {
+		flex-direction: row;
+		padding: 0 3%;
+	}
+	h1 {
+		text-align: right;
+		font-size: 45px;
+		letter-spacing: 2px;
+		margin: 25px auto 20px 20px;
+	}
+	nav {
+		position: relative;
+		padding: 0px;
+		margin: auto;
+		width: auto;
+	}
+	header {
+		margin-top: 0;
+	}
+	header span {
+		font-size: 12px;
+		text-align: right;
+		position: absolute;
+		right: 20px;
+		top: 90px;
+	}
+	.h-s-d {
+		margin: auto;
+	}
 }

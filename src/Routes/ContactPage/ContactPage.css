@@ -1,88 +1,91 @@
 .contact-page h2 {
-  font-size: 45px;
-  letter-spacing: 2px;
-  margin: 10px auto;
+	font-size: 45px;
+	letter-spacing: 2px;
+	margin: 10px auto;
 }
 
 h3 {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .CTA {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .lets-connect {
-    padding: 30px 0;
-    background-color: #2a393f;
-    color: white;
+	padding: 30px 0;
+	background-color: #2a393f;
+	color: white;
 }
 
-.lets-connect a, .lets-connect a:hover {
-  color: #67eeee;
+.lets-connect a,
+.lets-connect a:hover {
+	color: #67eeee;
 }
 
-.resume a, .resume a:hover {
-  color: white;
+.resume a,
+.resume a:hover {
+	color: white;
 }
 
 .linktree {
-    max-width: 150px;
-    margin: auto;
+	max-width: 150px;
+	margin: auto;
 }
 
 .resume {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  background-color: #F5D6DC;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: #f5d6dc;
 }
 
 .resume img {
-  width: 75%;
-  margin: 20px auto;
+	width: 75%;
+	margin: 20px auto;
 }
 
 .r-d {
-  padding: 30px 15px;
-  display: flex;
-  margin: 10px auto;
-  flex-direction: column;
+	padding: 30px 15px;
+	display: flex;
+	margin: 10px auto;
+	flex-direction: column;
 }
 
 .resume-button {
-  background-color: #007a7a;
-  width: 45%;
-  padding: 10px;
-  margin: auto;
-  border-radius: 15px;
+	background-color: #0f5c35;
+	width: 45%;
+	padding: 10px;
+	margin: auto;
+	border-radius: 15px;
 }
 
 .resume-button:hover {
-  background-color: #1c9292;
+	background-color: #1c9292;
 }
 
 .buttons {
-    width: 75%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    padding: 5px 0;
-    max-width: 500px;
-  }
-  
-  .buttons img, .contact-me img {
-    width: 80%;
-    padding: 5% 0;
-  }
+	width: 75%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	padding: 5px 0;
+	max-width: 500px;
+}
+
+.buttons img,
+.contact-me img {
+	width: 80%;
+	padding: 5% 0;
+}
 
 @media all and (min-width: 700px) {
-  .resume img {
-    width: 50%;
-    margin: 20px auto;
-  }
-  h3 {
-    font-size: 25px;
-    margin: 15px auto;
-  }
+	.resume img {
+		width: 50%;
+		margin: 20px auto;
+	}
+	h3 {
+		font-size: 25px;
+		margin: 15px auto;
+	}
 }
