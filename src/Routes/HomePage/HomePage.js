@@ -50,8 +50,8 @@ class HomePage extends React.Component {
               </b>
             </p>
             <p>
-              I hope you enjoy my website. Don't forget to
-              <Link to="/contact"> connect</Link>!
+              I hope you enjoy my website. If you like what you see, let's
+              <Link to="/contact"> <b>connect</b></Link>!
             </p>
           </article>
           <div className="open-to-work topspace center">

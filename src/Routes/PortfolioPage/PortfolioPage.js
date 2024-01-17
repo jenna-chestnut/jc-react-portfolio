@@ -51,7 +51,7 @@ class PortfolioPage extends React.Component {
 
       return (
         <div className="portfolio-page">
-          <h2 className='p-h'>PORTFOLIO</h2>
+          <h2 className='p-h'>CODING PORTFOLIO</h2>
 			  {this.renderProjects()}
         
         <div className='tech-div'>

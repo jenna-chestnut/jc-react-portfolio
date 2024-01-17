@@ -9,15 +9,13 @@ class Header extends React.Component {
         <header className="h-group">
         <nav>
             <Link to="/about">About</Link>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/portfolio">Coding Portfolio</Link>
             <Link to="/contact">Contact</Link>
         </nav>
         <div className="item">
             <h1><Link to='/'>Jenna Chestnut</Link></h1>
             <div className='h-s-d'>
-              <span> Static and Dynamic Web development 
-				          | Systems Consulting and Redesign
-				          | Virtual Assistant</span>
+              <span> Systems Consulting and Redesign | Business Consulting | Automation Strategist</span>
             </div>
         </div>
         </header>

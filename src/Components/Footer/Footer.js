@@ -23,7 +23,7 @@ class Footer extends React.Component {
                 <a href='https://www.linkedin.com/in/jenna-chestnut/' target="_blank" rel="noreferrer"><img src={linkedInIcon} alt='tiny linkedin icon'/></a>
                 <a href='https://www.youtube.com/channel/UCcVIfNta88p-qtpNpLbZapQ' target="_blank" rel="noreferrer"><img src={youtubeIcon} alt='tiny instagram icon'/></a>
                 </div>
-                <span className='lil-r'>Created with React</span>
+                <span className='lil-r'>Created with React & Vanilla CSS</span>
             </div>
             </div>
         </footer>

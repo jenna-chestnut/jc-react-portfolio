@@ -23,7 +23,7 @@ class AboutPage extends React.Component {
 
       return (
       <article id="aboutme" className="about-page">
-			<div className="toppadding bottompadding pink-circle-bg">
+			<div className="toppadding bottompadding green-circle-bg">
 			<div className="wrapper">
 			<Fade duration={2000}>
 				<div className="group">
@@ -38,8 +38,8 @@ class AboutPage extends React.Component {
 				<div className="item about-text-group">
 				<p>
 				Since my first keystroke, I've always found joy in navigating
-				computer systems. The purposeful shift from the restaurant industry to
-				the medical field in 2017 gave me an opportunity to further explore
+				computer systems. The purposeful shift in 2017 from the restaurant industry to
+				an administrative role gave me the opportunity to further explore
 				my tech skills, and fulfill my drive to improve the lives of others.
 			  </p>
 
@@ -59,9 +59,13 @@ class AboutPage extends React.Component {
 				Whether it be the layout, color scheme, friendly UX, written voice or strong architecture of code—my creative mind, eye for design and analytical nature shine through the programming work I produce. My administrative and operations roles in small businesses give me the opportunity to continually hone my interpersonal and leadership skills. 
 				</p>
 
-				<p className="bottompadding">
+				<p>
 				My experience and passion for tech, combined with my history in the service industry gives me additional perspective—and with it an advantage in facilitating successful automated marketing events, data collection and workflow processes.
 				</p>
+
+				<h3 className="topspace bottompadding"> 
+				My true passion is making a positive impact by adding structure to systems, strategy to goals, organization to chaos, and form to ideas. <b>I honor the place between chaos and order that facilitates creation and innovation.</b>
+				</h3>
 			  </Fade>
 			  </div>
 
