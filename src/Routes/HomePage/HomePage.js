@@ -57,8 +57,9 @@ class HomePage extends React.Component {
           <div className="open-to-work topspace center">
             <a
               className="message-button"
-              href="https://jennachestnut.com/contact#contact-form"
+              href="https://form.jotform.com/jennachestnut/restructsure"
               rel="noreferrer"
+              target="_blank"
             >
               Inquire Cost & Availability
             </a>
