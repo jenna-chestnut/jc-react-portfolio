@@ -45,7 +45,7 @@ class ContactPage extends React.Component {
 									>
 										{' '}
 										let's connect
-									</a>{' '}
+									</a>
 									!
 								</h3>
 							</div>

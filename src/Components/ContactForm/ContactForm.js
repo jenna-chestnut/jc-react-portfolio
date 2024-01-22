@@ -6,7 +6,7 @@ class ContactForm extends React.Component {
 
       return (
         <div className="wrapper">
-        <form action="https://formspree.io/f/xdopldyp" method="post">
+        <form action="https://formspree.io/f/mayrqnpv" method="post">
           <fieldset>
             <legend>SEND A MESSAGE</legend>
             <p>Inquiries | Recruitment | Networking | Feedback</p>
