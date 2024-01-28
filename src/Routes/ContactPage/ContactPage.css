@@ -18,9 +18,12 @@ h3 {
 	color: white;
 }
 
-.lets-connect a,
-.lets-connect a:hover {
+.lets-connect a {
 	color: #a0b1e9;
+}
+
+.lets-connect a:hover {
+	color: #E36414;
 }
 
 .resume a,

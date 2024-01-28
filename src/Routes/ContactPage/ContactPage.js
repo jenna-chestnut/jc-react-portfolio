@@ -7,6 +7,7 @@ import resumeImg from '../../images/resume-screenshot.jpeg';
 import React from 'react';
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 
 class ContactPage extends React.Component {
 	render() {
@@ -25,8 +26,11 @@ class ContactPage extends React.Component {
 								</p>
 								<p className="CTA">
 									I have worked with multiple 6 figure businesses on their
-									journey to 7 figures, with the highest priority being
-									supporting and facilitating the creative genius of the CEO.
+									journey to 7 figures, with the highest (& most effective)
+									priority of{' '}
+									<i>
+										supporting and facilitating the creative genius of the CEO.
+									</i>
 								</p>
 								<p>
 									I also recognize that optimized systems and automation helps
@@ -39,7 +43,7 @@ class ContactPage extends React.Component {
 									small business, drowning in details, or in need of a fresh set
 									of eyes on your systems and strategies..
 									<a
-										href="https://linktr.ee/jenna.chestnut"
+										href="https://form.jotform.com/jennachestnut/restructsure"
 										target="_blank"
 										rel="noreferrer"
 									>
@@ -85,7 +89,11 @@ class ContactPage extends React.Component {
 										Project Management - Newsletter Building - Phone Script
 										Creation - Team Delineation - Hiring & Training
 									</p>
-									<p>SERVICES BREAKDOWN & DESCRIPTIONS</p>
+									<p>
+										<Link to="/services">
+											SERVICES BREAKDOWN & DESCRIPTIONS
+										</Link>
+									</p>
 								</div>
 							</div>
 
@@ -149,6 +157,16 @@ class ContactPage extends React.Component {
 							<img src={linkTreeLogo} alt="LinkTree" />
 						</a>
 					</div>
+				</div>
+				<div className="open-to-work topspace center bottomspace">
+					<a
+						className="message-button"
+						href="https://form.jotform.com/jennachestnut/restructsure"
+						rel="noreferrer"
+						target="_blank"
+					>
+						Inquire Cost & Availability
+					</a>
 				</div>
 
 				<Fade>

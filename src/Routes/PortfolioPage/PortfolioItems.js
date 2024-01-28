@@ -19,37 +19,85 @@ import mM3 from '../../images/project-screenshots/movemed-screenshot-3.jpg';
 import mM4 from '../../images/project-screenshots/movemed-screenshot-4.jpg';
 import mM5 from '../../images/project-screenshots/movemed-screenshot-5.jpg';
 
+import cS1 from '../../images/project-screenshots/chakra-site-screenshot-1.png';
+import cS2 from '../../images/project-screenshots/chakra-site-screenshot-2.png';
+import cS3 from '../../images/project-screenshots/chakra-site-screenshot-3.png';
+import cS4 from '../../images/project-screenshots/chakra-site-screenshot-4.png';
+
 export const PortfolioItems = [
-    {
-        title: 'MoveMed',
-        description: 'I created this app with healthy continuous movement in mind. With MoveMed, the communication between provider and client is not broken after leaving the office. Providers can create exercises, and assign those exercises with unique details to a client. Clients can then view their goal and customized exercises anytime. Comments between providers and the client help add feedback in real time and maintain progress.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Heroku', 'Node', 'MongoDB', 'Vercel'],
-        liveLink: 'https://move-med.vercel.app/',
-        repo: 'https://github.com/jenna-chestnut/move-med-client',
-        images: [mM1, mM2, mM3, mM4, mM5]
-    },
-    {
-        title: 'Cater Naturals Website',
-        description: 'Cater Naturals is a small catering business located in Brooklyn NY. My role was in creating the entire static webpage. This is their site - features include a pop up form and client side routing. ',
-        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'AWS S3', 'AWS Route 53', 'AWS CLoudFront'],
-        liveLink: 'https://caternaturals.com/',
-        repo: null,
-        images: [cN1, cN2, cN3, cN4]
-    },
-    {
-        title: 'nSpired',
-        description: 'nSpired was created to offer a platform specifically to meeting goals independently, while connecting and sharing with others who want to achieve the same. This project is all my own and I envisioned and developed both the client and server applications.',
-        tech: ['HTML', 'CSS', 'React', 'Node.js', 'PostgreSQL', 'Git', 'GitHub', 'ExpressJS', 'KnexJS', 'Heroku', 'Vercel'],
-        liveLink: 'https://nspired-app.vercel.app/',
-        repo: 'https://github.com/jenna-chestnut/nspired-client',
-        images: [ nSpired1, nSpired2, nSpired3, nSpired4, nSpired5 ]
-    },
-    {
-        title: 'Don\'t Space Out! Quiz',
-        description: 'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz. This project was created as a part of my bootcamp curriculum, where I was given creative control.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Git', 'GitHub'],
-        liveLink: 'https://jenna-chestnut.github.io/quizapp-ei/',
-        repo: 'https://github.com/jenna-chestnut/quizapp-ei',
-        images: [sQ1, sQ2, sQ3]
-    },
-]
+	{
+		title: 'Chakra Centre Website',
+		description:
+			'The seven chakras are thought of as the main energy points in your body, which run down the spine. Each chakra has a respective color, symbol, and name. I created and designed this website to give users an opportunity to learn about each chakra, access resources to learn more, and complete a quiz to dial in on which chakra may need extra love.',
+		tech: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'Git', 'GitHub', 'Vercel'],
+		liveLink: 'https://chakra-site.vercel.app/',
+		repo: 'https://github.com/jenna-chestnut/chakra-site-pgd101',
+		images: [cS1, cS2, cS3, cS4],
+	},
+	{
+		title: 'MoveMed',
+		description:
+			'I created this app with healthy continuous movement in mind. With MoveMed, the communication between provider and client is not broken after leaving the office. Providers can create exercises, and assign those exercises with unique details to a client. Clients can then view their goal and customized exercises anytime. Comments between providers and the client help add feedback in real time and maintain progress.',
+		tech: [
+			'HTML',
+			'CSS',
+			'JavaScript',
+			'React',
+			'Redux',
+			'Heroku',
+			'Node',
+			'MongoDB',
+			'Vercel',
+		],
+		liveLink: 'https://move-med.vercel.app/',
+		repo: 'https://github.com/jenna-chestnut/move-med-client',
+		images: [mM1, mM2, mM3, mM4, mM5],
+	},
+	{
+		title: 'Cater Naturals Website',
+		description:
+			'Cater Naturals is a small catering business located in Brooklyn NY. My role was in creating the entire static webpage. This is their site - features include a pop up form and client side routing. ',
+		tech: [
+			'HTML',
+			'CSS',
+			'JavaScript',
+			'jQuery',
+			'AWS S3',
+			'AWS Route 53',
+			'AWS CLoudFront',
+		],
+		liveLink: 'https://caternaturals.com/',
+		repo: null,
+		images: [cN1, cN2, cN3, cN4],
+	},
+	{
+		title: 'nSpired',
+		description:
+			'nSpired was created to offer a platform specifically to meeting goals independently, while connecting and sharing with others who want to achieve the same. This project is all my own and I envisioned and developed both the client and server applications.',
+		tech: [
+			'HTML',
+			'CSS',
+			'React',
+			'Node.js',
+			'PostgreSQL',
+			'Git',
+			'GitHub',
+			'ExpressJS',
+			'KnexJS',
+			'Heroku',
+			'Vercel',
+		],
+		liveLink: 'https://nspired-app.vercel.app/',
+		repo: 'https://github.com/jenna-chestnut/nspired-client',
+		images: [nSpired1, nSpired2, nSpired3, nSpired4, nSpired5],
+	},
+	{
+		title: "Don't Space Out! Quiz",
+		description:
+			'Think you know enough about the cosmos? Test your space knowledge with this simple 6 question quiz. This project was created as a part of my bootcamp curriculum, where I was given creative control.',
+		tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Git', 'GitHub'],
+		liveLink: 'https://jenna-chestnut.github.io/quizapp-ei/',
+		repo: 'https://github.com/jenna-chestnut/quizapp-ei',
+		images: [sQ1, sQ2, sQ3],
+	},
+];

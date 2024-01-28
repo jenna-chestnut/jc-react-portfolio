@@ -5,7 +5,6 @@ import img from "../../images/salemthedog-smiling.jpg";
 import headshotImg from "../../images/selfie-square.jpg";
 import portfolioImg from "../../images/portfolio-window.png";
 import HomePageWindow from "../../Components/HomePageWindow/HomePageWindow";
-import Fade from "react-reveal/Fade";
 
 const windowLinks = [
   { link: "/about", img: headshotImg, text: "About" },
