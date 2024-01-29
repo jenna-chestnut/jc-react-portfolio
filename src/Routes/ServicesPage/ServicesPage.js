@@ -13,7 +13,7 @@ class ServicesPage extends React.Component {
 					<h1 className="topspace center">Why hire a consultant?</h1>
 					<hr />
 					<article className="bottomspace">
-						<h2>You're overwhelmed.</h2>
+						<h2>&#128565;&zwj;&#128171; You're overwhelmed.</h2>
 						<p>
 							You took the leap and started your own business - and things are
 							finally taking off! You’re seeing more clients, making more sales,
@@ -53,7 +53,7 @@ class ServicesPage extends React.Component {
 						</p>
 					</article>
 					<article className="topspace bottomspace">
-						<h2>You're stuck.</h2>
+						<h2>&#128012; You're stuck.</h2>
 						<p>
 							You are passionate about what you do, and you KNOW you can make a
 							huge difference in people's lives.. you've seen it happen in real
@@ -73,8 +73,8 @@ class ServicesPage extends React.Component {
 							</b>
 						</p>
 					</article>
-					<article className="bottomspace purply-tint">
-						<h2 className="topspace">You're ready to level up.</h2>
+					<article className="bottomspace">
+						<h2 className="topspace">&#128200; You're ready to level up.</h2>
 						<p>
 							You are a solo entrepreneur and things are going pretty well, but
 							you're getting pretty tired of having to do everything by
@@ -95,7 +95,7 @@ class ServicesPage extends React.Component {
 						</p>
 					</article>
 					<article className="bottomspace">
-						<h2 className="topspace">You have other priorities.</h2>
+						<h2 className="topspace">&#128064; You have other priorities.</h2>
 						<p>
 							Simply put, you don't want to do a particular project (like
 							creating a sales funnel or setting up automations) and would like
@@ -108,43 +108,61 @@ class ServicesPage extends React.Component {
 							</b>
 						</p>
 					</article>
-					<h2>This is where I come in!</h2>
-					<p>
-						I have over 10 years of experience working customer facing,
-						technical and leadership positions in a fast-paced environment.
-						Since 2017, I have developed a unique skill set that enables me to
-						strengthen small businesses through automations, systems, SOPs,
-						templates, and other business processes.{' '}
-					</p>
-					<p>
-						My skills are honed in time management, communication, organization
-						and problem solving.
-					</p>
-					<p>
-						My goal is to establish the space and stability you need to do what
-						only YOU can do.
-					</p>
-					<p>
-						The real magic happens when you’re able to live in your zone of
-						genius, without swimming knee deep in email replies or searching for
-						data in a stack of unorganized files.
-					</p>
-					<p>
-						My experience as Operations Manager and Web Developer gives me a leg
-						up for this goal. In this digital landscape, so much of what you do
-						can be automated or organized digitally, whether you own a
-						brick-and-mortar or not! As a technically proficient Operations
-						Manager, I not only have the must-have business skills such as
-						strategic planning, hiring, creating Standard Operating Procedures,
-						data tracking, and communication - I can also find and share ways to
-						leverage tech to meet your needs.
-					</p>
-					<h3>
-						Everyone is different, your business is unique, and the
-						possibilities are endless. I will never take a one-size-fits-all
-						approach. Take a look at my services &{' '}
-						<Link to="/contact">let’s chat</Link>!
-					</h3>
+					<article className="topspace bottomspace">
+						<h2 className="center">This is where I come in!</h2>
+						<p>
+							I have over 10 years of experience working customer facing,
+							technical and leadership positions in a fast-paced environment.
+							Since 2017, I have developed a unique skill set that enables me to
+							strengthen small businesses through automations, systems, SOPs,
+							templates, and other business processes.{' '}
+						</p>
+						<p>
+							My skills are honed in time management, communication,
+							organization and problem solving.
+						</p>
+						<p>
+							<b>
+								My goal is to establish the space and stability you need to do
+								what only YOU can do.
+							</b>
+						</p>
+						<p>
+							The real magic happens when you’re able to live in your zone of
+							genius, without swimming knee deep in email replies or searching
+							for data in a stack of unorganized files.
+						</p>
+						<p>
+							My experience as Operations Manager and Web Developer gives me a
+							leg up for this goal. In this digital landscape, so much of what
+							you do can be automated or organized digitally, whether your
+							business is virtual or brick-and-mortar! As a technically
+							proficient Operations Manager, I not only have the must-have
+							business skills such as strategic planning, hiring, creating
+							Standard Operating Procedures, data tracking, and communication -
+							I can also find and share ways to leverage tech to meet your
+							needs.
+						</p>
+						<h3>
+							Everyone is different, your business is unique, and the
+							possibilities are endless. I will never take a one-size-fits-all
+							approach. Take a look at my services &{' '}
+							<a
+								href="https://form.jotform.com/jennachestnut/restructsure"
+								rel="noreferrer"
+								target="_blank"
+							>
+								let’s chat
+							</a>
+							!
+						</h3>
+					</article>
+				</div>
+				<div className="purply-tint" id="services">
+					<article>
+						<h1 className="topspace center">Services</h1>
+						<hr />
+					</article>
 					<div className="open-to-work topspace center">
 						<a
 							className="message-button"

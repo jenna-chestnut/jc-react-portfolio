@@ -1,4 +1,16 @@
 .purply-tint {
-  background-color: #f4f2f8;
-  padding: 5px 25px;
+	background-color: #f4f2f8;
+}
+
+.services-page h1 {
+  margin: 25px auto;
+}
+
+.services-page h2 {
+	text-align: left;
+}
+
+article h2.center {
+	text-align: center;
+	color: #e36414;
 }
