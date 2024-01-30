@@ -3,14 +3,38 @@
 }
 
 .services-page h1 {
-  margin: 25px auto;
+	margin: 25px auto;
 }
 
 .services-page h2 {
 	text-align: left;
 }
 
-article h2.center {
+.jenna-pitch h2 {
 	text-align: center;
 	color: #e36414;
+}
+
+.services-list h3 {
+	padding-top: 25px;
+}
+
+.services-list h2 {
+	text-align: center;
+	padding-top: 33px;
+	margin-bottom: 0px;
+	color: #2b2c40;
+	text-shadow: 2px 2px #a0b1e9;
+}
+
+h2.first-service {
+	padding-top: 0px;
+}
+
+.services-links {
+	margin-top: -15px;
+}
+
+h2.center {
+	text-align: center;
 }

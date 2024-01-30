@@ -69,8 +69,8 @@ class PortfolioPage extends React.Component {
 					<p>Please enjoy this brief showcase of my coding projects.</p>
 					<p>
 						<i>
-							I also created this website using React & Vanilla CSS. You can
-							check out the source code repository{' '}
+							I also created/designed this website using React & Vanilla CSS.
+							You can check out the source code repository{' '}
 							<a
 								href="https://github.com/jenna-chestnut/jc-react-portfolio"
 								target="_blank"
