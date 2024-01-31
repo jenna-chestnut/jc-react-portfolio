@@ -61,6 +61,10 @@
 	width: 100%;
 }
 
+.open-to-work {
+	padding-top: 33px;
+}
+
 .open-to-work p {
 	font-size: 15px;
 	padding-top: 15px;
@@ -69,14 +73,18 @@
 .message-button {
 	color: white;
 	background-color: #0f5c35;
-	padding: 10px 15px;
-	margin: 15px auto;
-	border-radius: 15px;
+	padding: 20px 20px;
+	margin: 22px auto;
+	border-radius: 2px;
+	border: 2px solid #a0b1e9;
+	font-weight: bold;
+	transition: 0.5s;
 }
 
 .message-button:hover {
-	color: white;
+	color: #0f5c35;
 	background-color: #a0b1e9;
+	border: 2px solid #0f5c35;
 }
 
 @media all and (min-width: 600px) {

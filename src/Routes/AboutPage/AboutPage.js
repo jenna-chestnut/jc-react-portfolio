@@ -65,17 +65,9 @@ class AboutPage extends React.Component {
 							<p>
 								My creative mind, eye for design and analytical nature shine
 								through the organizational, systems and automation work I
-								produce. My experience as Operations Manager gives me the
-								opportunity to flex my business, organizational, interpersonal
-								and leadership skills. My tech savvy nature gives me additional
-								perspective, and with it an advantage in facilitating successful
-								automated marketing events, data collection and workflow
-								processes.
-							</p>
-
-							<p>
-								My experience and passion for tech, combined with my history in
-								the service industry gives me additional perspective — and with
+								produce. My experience as Operations Manager has strengthened my
+								business, organizational, interpersonal and leadership skills.
+								My tech savvy nature gives me additional perspective, and with
 								it an advantage in facilitating successful automated marketing
 								events, data collection and workflow processes.
 							</p>
@@ -83,12 +75,19 @@ class AboutPage extends React.Component {
 							<h3 className="topspace bottompadding">
 								My true passion is making a positive impact by adding structure
 								to systems, strategy to goals, organization to disarray, and
-								form to ideas.{' '}
-								<b>
-									I honor the place between chaos and order that facilitates
-									creation and innovation.
-								</b>
+								form to ideas. I honor the place between chaos and order that
+								facilitates creation and innovation.
 							</h3>
+							<div className="open-to-work center bottomspace bottompadding">
+								<a
+									className="message-button"
+									href="https://form.jotform.com/jennachestnut/restructsure"
+									rel="noreferrer"
+									target="_blank"
+								>
+									INQUIRE COST & AVAILABILITY
+								</a>
+							</div>
 						</Fade>
 					</div>
 
@@ -124,14 +123,13 @@ class AboutPage extends React.Component {
 					<ul>
 						<Fade duration={2000} cascade>
 							<li>2006: Edited first code</li>
-							<li>2010: Obtained GED</li>
 							<li>2016: Restaurant management role</li>
-							<li>2018: Senior role at a small business</li>
-							<li>2021: Immersive web development certificatation</li>
-							<li>2021: Web development role</li>
-							<li>2021: Operations manager role</li>
-							<li>2021: CRM/Systems consultant role</li>
-							<li>2022: Self employment</li>
+							<li>2018: Senior role in a 6-figure business</li>
+							<li>2020: Web development role</li>
+							<li>2020: First CRM/Systems consultant role</li>
+							<li>2021: Full stack development certification</li>
+							<li>2022: Senior role in a 7-figure business</li>
+							<li>2024: Self employment</li>
 						</Fade>
 					</ul>
 				</div>

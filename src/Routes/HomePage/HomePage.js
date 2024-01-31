@@ -57,14 +57,14 @@ class HomePage extends React.Component {
 							!
 						</p>
 					</article>
-					<div className="open-to-work topspace center">
+					<div className="open-to-work center">
 						<a
 							className="message-button"
 							href="https://form.jotform.com/jennachestnut/restructsure"
 							rel="noreferrer"
 							target="_blank"
 						>
-							Inquire Cost & Availability
+							INQUIRE COST & AVAILABILITY
 						</a>
 						<br />
 						<p className="offers">

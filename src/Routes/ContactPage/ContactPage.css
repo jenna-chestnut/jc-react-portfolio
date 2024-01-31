@@ -23,11 +23,10 @@ h3 {
 }
 
 .lets-connect a:hover {
-	color: #E36414;
+	color: #e36414;
 }
 
-.resume a,
-.resume a:hover {
+.resume a {
 	color: white;
 }
 
@@ -60,11 +59,14 @@ h3 {
 	width: 45%;
 	padding: 10px;
 	margin: auto;
-	border-radius: 15px;
+	border-radius: 2px;
+	font-weight: bold;
+	transition: 0.5s;
 }
 
 .resume-button:hover {
 	background-color: #a0b1e9;
+	color: #0f5c35;
 }
 
 .buttons {

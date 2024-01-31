@@ -21,6 +21,14 @@ class ServicesDescription extends React.Component {
 						<p className="center">
 							<i>For when you need an outside perspective.</i>
 						</p>
+						<h3>Business Audit</h3>
+						<p>
+							We will virtually meet to chat about your goals and where you're
+							struggling, stuck, or just want more out of your business/team. I
+							will then explore your platforms based on our conversation, and
+							offer my insights + specific action steps that myself or your team
+							can implement.
+						</p>
 						<h3>Systems Audit</h3>
 						<p>
 							<b>
@@ -55,7 +63,7 @@ class ServicesDescription extends React.Component {
 						</p>
 						<h3>Additional Consulting Services</h3>
 						<p>
-							Audits: Business, Automation, Offerings - Strategy Session -
+							Audits: Automation, Offerings - Strategy Session -
 							Organization & Operation Insights - Calendar Analysis - Lead →
 							Client Pipeline Strategies
 						</p>
@@ -136,7 +144,7 @@ class ServicesDescription extends React.Component {
 						</p>
 						<h3>Additional Action Step Services</h3>
 						<p>
-							Documentation & Document Review/Edits - File & Resource
+							Task Management Optimization - Documentation & Document Review/Edits - File & Resource
 							Organization - Process Optimization - Lead → Client Pipeline Set
 							Up
 						</p>

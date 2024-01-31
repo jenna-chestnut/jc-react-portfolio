@@ -62,9 +62,7 @@ class PortfolioPage extends React.Component {
 						thinking skills, adaptability, creativity, and attention to detail.
 					</p>
 					<p>
-						<b>
-							Also - unsurprising bonus - I'm great with computers! &#128540;
-						</b>
+						<b>Added bonus - I'm great with computers! &#128540;</b>
 					</p>
 					<p>Please enjoy this brief showcase of my coding projects.</p>
 					<p>

@@ -29,7 +29,7 @@ class ServicesPage extends React.Component {
 						rel="noreferrer"
 						target="_blank"
 					>
-						Inquire Cost & Availability
+						INQUIRE COST & AVAILABILITY
 					</a>
 				</div>
 			</div>

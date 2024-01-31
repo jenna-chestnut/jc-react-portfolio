@@ -72,13 +72,15 @@ button[type='submit'] {
 	color: #ffffff;
 	background-color: #0f5c35;
 	border-style: none;
-	border-radius: 5px;
+	border-radius: 2px;
 	padding: 10px 40px;
+	transition: 0.5s;
 }
 
 button[type='submit']:hover {
 	background-color: #a0b1e9;
 	cursor: pointer;
+	color: #0f5c35;
 }
 
 @media all and (min-width: 800px) {

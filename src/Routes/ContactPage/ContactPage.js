@@ -79,7 +79,7 @@ class ContactPage extends React.Component {
 										SOP Creation - Documentation - File & Resource Organization
 										- Process Optimization - Metric Tracking Set Up - Website
 										Updates - Schedule Creation & Execution - Lead &rarr; Client
-										Pipeline Set Up - Inbox Organization
+										Pipeline Set Up - Inbox Organization - Task Management Optimization
 									</p>
 
 									<p>
@@ -165,7 +165,7 @@ class ContactPage extends React.Component {
 						rel="noreferrer"
 						target="_blank"
 					>
-						Inquire Cost & Availability
+						INQUIRE COST & AVAILABILITY
 					</a>
 				</div>
 
