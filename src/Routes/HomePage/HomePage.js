@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../images/salemthedog-smiling.jpg';
 import headshotImg from '../../images/selfie-square.jpg';
-import servicesImg from '../../images/services-square.jpeg';
+import servicesImg from '../../images/services-square.png';
 import HomePageWindow from '../../Components/HomePageWindow/HomePageWindow';
 
 const windowLinks = [

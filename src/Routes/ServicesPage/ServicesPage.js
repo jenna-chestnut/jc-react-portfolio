@@ -8,6 +8,12 @@ class ServicesPage extends React.Component {
 	render() {
 		return (
 			<div className="services-page">
+				<div className="services-hero">
+					<div class="shade">
+						<h1 className="services-hero-h1">RestructSure</h1>
+						<p className="services-hero-p">Restructuring small business systems to propel their growth. 🌱</p>
+					</div>
+				</div>
 				<div className="wrapper bottompadding toppadding">
 					<ConsultantWhys />
 					<JennaPitch />
