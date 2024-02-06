@@ -5,7 +5,6 @@ import ContactPage from '../../Routes/ContactPage/ContactPage';
 import HomePage from '../../Routes/HomePage/HomePage';
 import PortfolioPage from '../../Routes/PortfolioPage/PortfolioPage';
 import ServicesPage from '../../Routes/ServicesPage/ServicesPage';
-import NotFoundPage from '../../Routes/NotFoundPage/NotFoundPage';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
@@ -37,7 +36,7 @@ class App extends React.Component {
 						<Route path="/portfolio" component={PortfolioPage} />
 						<Route path="/contact" component={ContactPage} />
 						<Route path="/services" component={ServicesPage} />
-						<Route component={NotFoundPage} />
+						<Route component={HomePage} />
 					</Switch>
 				</Main>
 
